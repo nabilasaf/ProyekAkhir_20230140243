@@ -1,0 +1,7 @@
+data_raw/*
+!data_raw/.gitkeep
+__pycache__/
+*.pyc
+*.log
+desktop.ini
+Thumbs.db

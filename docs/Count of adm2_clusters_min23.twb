@@ -1,0 +1,1408 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='bd89b70fd30fe7193dee8bfd82dff5a59bf63960a1f29ca3891216c02f3fd420' _.fcp.WorkbookFingerprinting.true...creator-author-id='bd89b70fd30fe7193dee8bfd82dff5a59bf63960a1f29ca3891216c02f3fd420' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='bd89b70fd30fe7193dee8bfd82dff5a59bf63960a1f29ca3891216c02f3fd420' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='bd89b70fd30fe7193dee8bfd82dff5a59bf63960a1f29ca3891216c02f3fd420' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SpatialFileLayer />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='adm2_clusters_min23' inline='true' name='federated.0z2k1c719lldme1b5ggtk1p1setl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='adm2_clusters_min23' name='ogrdirect.1i6cby410fnjpe1eo1az90bvdrea'>
+            <connection class='ogrdirect' directory='D:/SEMESTER_7/BIG_DATA/Project_Akhir/results/dashboard' filename='adm2_clusters_min23.geojson' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='ogrdirect.1i6cby410fnjpe1eo1az90bvdrea' name='adm2_clusters_min23.geojson' table='[adm2_clusters_min23.geojson]' type='table'>
+          <columns>
+            <column datatype='string' name='shapeID' ordinal='0' />
+            <column datatype='string' name='shapeName' ordinal='1' />
+            <column datatype='string' name='status' ordinal='2' />
+            <column datatype='string' name='label_peta_A' ordinal='3' />
+            <column datatype='string' name='label_peta_B' ordinal='4' />
+            <column datatype='string' name='kmeans_k4_nama_A' ordinal='5' />
+            <column datatype='string' name='kmeans_k4_nama_B' ordinal='6' />
+            <column datatype='string' name='kmeans_k5_nama_A' ordinal='7' />
+            <column datatype='string' name='kmeans_k5_nama_B' ordinal='8' />
+            <column datatype='string' name='dbscan_nama_A' ordinal='9' />
+            <column datatype='string' name='dbscan_nama_B' ordinal='10' />
+            <column datatype='string' name='hybrid_nama_A' ordinal='11' />
+            <column datatype='string' name='hybrid_nama_B' ordinal='12' />
+            <column datatype='string' name='ensemble_k4_nama_A' ordinal='13' />
+            <column datatype='string' name='ensemble_k4_nama_B' ordinal='14' />
+            <column datatype='integer' name='total_hotspot_A' ordinal='15' />
+            <column datatype='real' name='hotspot_per_bulan_A' ordinal='16' />
+            <column datatype='real' name='cv_antartahun_A' ordinal='17' />
+            <column datatype='real' name='proporsi_malam_A' ordinal='18' />
+            <column datatype='real' name='rata2_frp_A' ordinal='19' />
+            <column datatype='real' name='rata2_confidence_A' ordinal='20' />
+            <column datatype='real' name='share_nonveg' ordinal='21' />
+            <column datatype='spatial' name='Geometry' ordinal='22' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>shapeID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shapeID]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>shapeID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shapeName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shapeName]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>shapeName</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[status]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>status</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>label_peta_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[label_peta_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>label_peta_A</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>label_peta_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[label_peta_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>label_peta_B</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kmeans_k4_nama_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kmeans_k4_nama_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>kmeans_k4_nama_A</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kmeans_k4_nama_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kmeans_k4_nama_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>kmeans_k4_nama_B</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kmeans_k5_nama_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kmeans_k5_nama_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>kmeans_k5_nama_A</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kmeans_k5_nama_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kmeans_k5_nama_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>kmeans_k5_nama_B</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbscan_nama_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dbscan_nama_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>dbscan_nama_A</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbscan_nama_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dbscan_nama_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>dbscan_nama_B</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hybrid_nama_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hybrid_nama_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>hybrid_nama_A</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hybrid_nama_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hybrid_nama_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>hybrid_nama_B</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ensemble_k4_nama_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ensemble_k4_nama_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>ensemble_k4_nama_A</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ensemble_k4_nama_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ensemble_k4_nama_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>ensemble_k4_nama_B</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_hotspot_A</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_hotspot_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>total_hotspot_A</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hotspot_per_bulan_A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hotspot_per_bulan_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>hotspot_per_bulan_A</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cv_antartahun_A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cv_antartahun_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>cv_antartahun_A</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>proporsi_malam_A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[proporsi_malam_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>proporsi_malam_A</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rata2_frp_A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rata2_frp_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>rata2_frp_A</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rata2_confidence_A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rata2_confidence_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>rata2_confidence_A</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>share_nonveg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[share_nonveg]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>share_nonveg</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='adm2_clusters_min23.geojson' datatype='table' name='[__tableau_internal_object_id__].[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]' role='measure' type='quantitative' />
+      <column caption='cv antartahun A' datatype='real' name='[cv_antartahun_A]' role='measure' type='quantitative' />
+      <column caption='dbscan nama A' datatype='string' name='[dbscan_nama_A]' role='dimension' type='nominal' />
+      <column caption='dbscan nama B' datatype='string' name='[dbscan_nama_B]' role='dimension' type='nominal' />
+      <column caption='ensemble k4 nama A' datatype='string' name='[ensemble_k4_nama_A]' role='dimension' type='nominal' />
+      <column caption='ensemble k4 nama B' datatype='string' name='[ensemble_k4_nama_B]' role='dimension' type='nominal' />
+      <column caption='hotspot per bulan A' datatype='real' name='[hotspot_per_bulan_A]' role='measure' type='quantitative' />
+      <column caption='hybrid nama A' datatype='string' name='[hybrid_nama_A]' role='dimension' type='nominal' />
+      <column caption='hybrid nama B' datatype='string' name='[hybrid_nama_B]' role='dimension' type='nominal' />
+      <column caption='kmeans k4 nama A' datatype='string' name='[kmeans_k4_nama_A]' role='dimension' type='nominal' />
+      <column caption='kmeans k4 nama B' datatype='string' name='[kmeans_k4_nama_B]' role='dimension' type='nominal' />
+      <column caption='kmeans k5 nama A' datatype='string' name='[kmeans_k5_nama_A]' role='dimension' type='nominal' />
+      <column caption='kmeans k5 nama B' datatype='string' name='[kmeans_k5_nama_B]' role='dimension' type='nominal' />
+      <column caption='label peta A' datatype='string' name='[label_peta_A]' role='dimension' type='nominal' />
+      <column caption='label peta B' datatype='string' name='[label_peta_B]' role='dimension' type='nominal' />
+      <column caption='proporsi malam A' datatype='real' name='[proporsi_malam_A]' role='measure' type='quantitative' />
+      <column caption='rata2 confidence A' datatype='real' name='[rata2_confidence_A]' role='measure' type='quantitative' />
+      <column caption='rata2 frp A' datatype='real' name='[rata2_frp_A]' role='measure' type='quantitative' />
+      <column caption='Shape ID' datatype='string' name='[shapeID]' role='dimension' type='nominal' />
+      <column caption='Shape Name' datatype='string' name='[shapeName]' role='dimension' type='nominal' />
+      <column caption='Share Nonveg' datatype='real' name='[share_nonveg]' role='measure' type='quantitative' />
+      <column caption='Status' datatype='string' name='[status]' role='dimension' type='nominal' />
+      <column caption='total hotspot A' datatype='integer' name='[total_hotspot_A]' role='measure' type='quantitative' />
+      <column-instance column='[label_peta_A]' derivation='None' name='[none:label_peta_A:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/LENOVO/AppData/Local/Temp/TableauTemp/#TableauTemp_0wnddmh1knb4ba18wbf781hemur8.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/05/2026 09:49:02 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>shapeID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[shapeID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>shapeID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>519</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>shapeName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[shapeName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>shapeName</remote-alias>
+              <ordinal>1</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>519</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>status</remote-alias>
+              <ordinal>2</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>label_peta_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[label_peta_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>label_peta_A</remote-alias>
+              <ordinal>3</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>label_peta_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[label_peta_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>label_peta_B</remote-alias>
+              <ordinal>4</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kmeans_k4_nama_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[kmeans_k4_nama_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kmeans_k4_nama_A</remote-alias>
+              <ordinal>5</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kmeans_k4_nama_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[kmeans_k4_nama_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kmeans_k4_nama_B</remote-alias>
+              <ordinal>6</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kmeans_k5_nama_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[kmeans_k5_nama_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kmeans_k5_nama_A</remote-alias>
+              <ordinal>7</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kmeans_k5_nama_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[kmeans_k5_nama_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kmeans_k5_nama_B</remote-alias>
+              <ordinal>8</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dbscan_nama_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dbscan_nama_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dbscan_nama_A</remote-alias>
+              <ordinal>9</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dbscan_nama_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dbscan_nama_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dbscan_nama_B</remote-alias>
+              <ordinal>10</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hybrid_nama_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[hybrid_nama_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hybrid_nama_A</remote-alias>
+              <ordinal>11</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hybrid_nama_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[hybrid_nama_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hybrid_nama_B</remote-alias>
+              <ordinal>12</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ensemble_k4_nama_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ensemble_k4_nama_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ensemble_k4_nama_A</remote-alias>
+              <ordinal>13</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ensemble_k4_nama_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ensemble_k4_nama_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ensemble_k4_nama_B</remote-alias>
+              <ordinal>14</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_hotspot_A</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_hotspot_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_hotspot_A</remote-alias>
+              <ordinal>15</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>429</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hotspot_per_bulan_A</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[hotspot_per_bulan_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hotspot_per_bulan_A</remote-alias>
+              <ordinal>16</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>429</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cv_antartahun_A</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[cv_antartahun_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cv_antartahun_A</remote-alias>
+              <ordinal>17</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>498</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>proporsi_malam_A</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[proporsi_malam_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>proporsi_malam_A</remote-alias>
+              <ordinal>18</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>430</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rata2_frp_A</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rata2_frp_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rata2_frp_A</remote-alias>
+              <ordinal>19</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>509</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rata2_confidence_A</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rata2_confidence_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rata2_confidence_A</remote-alias>
+              <ordinal>20</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>505</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>share_nonveg</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[share_nonveg]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>share_nonveg</remote-alias>
+              <ordinal>21</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>390</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geometry</remote-name>
+              <remote-type>128</remote-type>
+              <local-name>[Geometry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Geometry</remote-alias>
+              <ordinal>22</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>spatial</local-type>
+              <aggregation>Collect</aggregation>
+              <approx-count>519</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:label_peta_A:nk]' type='palette'>
+            <map to='#67a9cf'>
+              <bucket>&quot;Intensitas rendah, tidak stabil&quot;</bucket>
+            </map>
+            <map to='#7b3294'>
+              <bucket>&quot;Dominan sumber non-vegetasi&quot;</bucket>
+            </map>
+            <map to='#b2182b'>
+              <bucket>&quot;Intensitas tinggi&quot;</bucket>
+            </map>
+            <map to='#bdbdbd'>
+              <bucket>&quot;Tanpa hotspot&quot;</bucket>
+            </map>
+            <map to='#e0e0e0'>
+              <bucket>&quot;<![CDATA[Hotspot terlalu sedikit (< 23)]]>&quot;</bucket>
+            </map>
+            <map to='#ef8a62'>
+              <bucket>&quot;Intensitas sedang, stabil&quot;</bucket>
+            </map>
+            <map to='#f2f2f2'>
+              <bucket>&quot;Bukan wilayah administratif&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='adm2_clusters_min23.geojson' id='adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF'>
+            <properties context=''>
+              <relation connection='ogrdirect.1i6cby410fnjpe1eo1az90bvdrea' name='adm2_clusters_min23.geojson' table='[adm2_clusters_min23.geojson]' type='table'>
+                <columns>
+                  <column datatype='string' name='shapeID' ordinal='0' />
+                  <column datatype='string' name='shapeName' ordinal='1' />
+                  <column datatype='string' name='status' ordinal='2' />
+                  <column datatype='string' name='label_peta_A' ordinal='3' />
+                  <column datatype='string' name='label_peta_B' ordinal='4' />
+                  <column datatype='string' name='kmeans_k4_nama_A' ordinal='5' />
+                  <column datatype='string' name='kmeans_k4_nama_B' ordinal='6' />
+                  <column datatype='string' name='kmeans_k5_nama_A' ordinal='7' />
+                  <column datatype='string' name='kmeans_k5_nama_B' ordinal='8' />
+                  <column datatype='string' name='dbscan_nama_A' ordinal='9' />
+                  <column datatype='string' name='dbscan_nama_B' ordinal='10' />
+                  <column datatype='string' name='hybrid_nama_A' ordinal='11' />
+                  <column datatype='string' name='hybrid_nama_B' ordinal='12' />
+                  <column datatype='string' name='ensemble_k4_nama_A' ordinal='13' />
+                  <column datatype='string' name='ensemble_k4_nama_B' ordinal='14' />
+                  <column datatype='integer' name='total_hotspot_A' ordinal='15' />
+                  <column datatype='real' name='hotspot_per_bulan_A' ordinal='16' />
+                  <column datatype='real' name='cv_antartahun_A' ordinal='17' />
+                  <column datatype='real' name='proporsi_malam_A' ordinal='18' />
+                  <column datatype='real' name='rata2_frp_A' ordinal='19' />
+                  <column datatype='real' name='rata2_confidence_A' ordinal='20' />
+                  <column datatype='real' name='share_nonveg' ordinal='21' />
+                  <column datatype='spatial' name='Geometry' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_54CAB30A5BB2489C9909254E93CE19CC]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='label peta A' />
+        <param name='target' value='Sheet 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='adm2_clusters_min23' name='federated.0z2k1c719lldme1b5ggtk1p1setl' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0z2k1c719lldme1b5ggtk1p1setl'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='label peta A' datatype='string' name='[label_peta_A]' role='dimension' type='nominal' />
+            <column-instance column='[label_peta_A]' derivation='None' name='[none:label_peta_A:nk]' pivot='key' type='nominal' />
+            <column-instance column='[shapeName]' derivation='None' name='[none:shapeName:nk]' pivot='key' type='nominal' />
+            <column caption='Shape Name' datatype='string' name='[shapeName]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0z2k1c719lldme1b5ggtk1p1setl].[Longitude (generated)]' field-type='quantitative' max='15613594.876446377' min='13498052.940717803' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0z2k1c719lldme1b5ggtk1p1setl].[Latitude (generated)]' field-type='quantitative' max='2600638.1082400791' min='-1691765.8047053069' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]' />
+              <lod column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[clct:Geometry:nk]' />
+              <lod column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:shapeName:nk]' />
+              <geometry column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[clct:Geometry:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='219' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0z2k1c719lldme1b5ggtk1p1setl].[Latitude (generated)]</rows>
+        <cols>[federated.0z2k1c719lldme1b5ggtk1p1setl].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{C8057394-48D2-4C90-82AE-141D7832578A}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='adm2_clusters_min23' name='federated.0z2k1c719lldme1b5ggtk1p1setl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z2k1c719lldme1b5ggtk1p1setl'>
+            <column caption='adm2_clusters_min23.geojson' datatype='table' name='[__tableau_internal_object_id__].[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF:qk]' pivot='key' type='quantitative' />
+            <column caption='label peta A' datatype='string' name='[label_peta_A]' role='dimension' type='nominal' />
+            <column-instance column='[label_peta_A]' derivation='None' name='[none:label_peta_A:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]</rows>
+        <cols>[federated.0z2k1c719lldme1b5ggtk1p1setl].[__tableau_internal_object_id__].[cnt:adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF:qk]</cols>
+      </table>
+      <simple-id uuid='{2172B713-18B0-4838-A2F1-60648792F962}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='139'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:shapeName:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{7B41D603-8A0A-4B30-A5A8-608289D6FB11}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{47DFFE8C-6B88-4D06-907E-382E8C1E5784}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      yQAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 2' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAABJ0AAASdAHeZh94
+      AAAgAElEQVR4nOy9V3BcaXqm+RyT3iKR8JYwBAhDEvS2SJZ3bapb0kg9Go00CmlidyN2IvZq
+      r/Z6L2auN2JG6tGuRpr21V1VXaarWPSeBGhAwntv0vtj9yJBW+wiQVM0yCeiLljI/M93Tv7v
+      +d1nBNM0TQoUWKOIz9qAAgWeJQUBFFjTFARQYE1TEECBNU1BAAXWNAUBFFjTFARQYE1TEECB
+      NU1BAAXWNAUBFFjTFARQYE1TEECBNU1BAAXWNAUBFFjTFARQYE1TEECBNU1BAAXWNAUBFFjT
+      FARQYE1TEECBNU1BAAXWNAUBFFjTFARQYNWYpomu68/ajEdC13UMw7j174IACjwSiqI8axMe
+      CVVVCwIoUOAm8rM2oMCLiWEYpFKpJ96uKIo4HI4n3u4fY1UCME0DXVVQ9dvZFEXJgsUiIQrC
+      A7+v6xmScRN3kRNp9bY+UUxdJasZWC1WJMFEySZJq1Y8XvtTsy0Xj6DYvXisT/IKCvFIDrvP
+      hVVczYBuomsqmg6yxYr0CHOBO6cSLyqrum0jG6f/9Ed89NlhDh8+zOEvv+DIyW4GpkLkHuJZ
+      ZJL9HP2klyf/3lg92YUBvjxxkYVYFgyVuf5T/OHYENmneM2pU59wbjb5hFud5/jvzrOQUVf5
+      PY3QaDenzl5lOfOETXqBWNUIYGgKiqZTs/lVNpcDeoaZoatcOnIY7f0f01n84syorIE6dnVp
+      eN1WQHvW5jwDJHxVrWwKCrhtz9qWZ8eqe6wgSVjtTpxOACfrNmwlOvOvLEZ0KFaYm0jgqSjG
+      bZUBncTiAgnBSUmx/xttGal5BucEGppKETMxJoduMDobIadLBOo30rWhErsIpJcYi4EzPUvv
+      wAQJzUFd20Y2NJTl/w5g5AgvRdAtHgIBF5Kpk1qaYCpmpaq+Go8FIM5Ef4rS1gosWo5szsBt
+      3m/qphKbGqT7+jhpXcIRqGJDezNlXjt6bJqxkI36hhKsNy+dmGEw5KS5zkNmeYr+GyMsJXMI
+      jiKaOrtoLHFw8ypGJkLf+YuMzCXAW0vX5jYqiux3DcVaepnRvj5GFxKYko2yde20NpbjXJk5
+      qekQQ1cvMxHKIrl1ZhISnQCGQiSyTCKaYHF6nKlQhqK6zXSuk5ns7WUynMNVs4m9m2pxyKAr
+      CjlFxPXg2etLy2PuAulEZ64xFq+irtQCxBjoHiZ8azhWWR7tp39snuy928bqMt3HeggjImKQ
+      TafI6g7Ka9fRuK4GdfQIh68tYQBExzn62WecndWoqGtkXVBkdKiPqeX07fYEg9jUCINjM6R1
+      MDSN2SuHOXH5OuOhFXuWr3OkL4IEKKFxLvePEs3cbz87weKCTnFN3hZPZpzzl/uJpHV0I8XI
+      2ZNMJG5/OnTja3oWTQQ9SyyZweIrp76hkQq/Tv+JwwxFbs4PkwxcvErSVUlDUy326BCX+yZI
+      3bOjmIpGUSweatato67Cw/JwNz2Di6gARpSLn37CiFpM3boGakq8WG4uKfQMswMXOdk9geCv
+      orm5lsilD/no2CCGv4rGpgrSV8/SF1EBjejMCP0DEyTX4gC4wqpHgMTsEF+f/S8cs5oo6RwV
+      W9/h9XdfpdwjAjrZdA7duLlINtFzGXKSigFIgAmYepKBM+dZLFrH3tpiZASc/jKaPaWIsoSA
+      SYk3zJFTU6Q3leDWFShrZcfGdsq8NoS0l6XzY6hpBXDmLyXY8Ll1emdDJNMGdkuSxSUrpfU2
+      EvPL6GXlxAavIVb/BAug6DnSOe0OW+/ER12HB8mat0Uvg4lzUbLpHEWeCqqCF7kxtEhjVyki
+      S1y7pNP87/yIEpRVN1FaIyGJAkauDDn+FeMLKdYXeQAn67ZsY2NrBVbRpFKMcDKsotyjQXdJ
+      LS0lIpIkgpnFrvQwuTxPmlLsA8e4bN/OX+5owW0VwXQyfG4o/yYzDVTJSXn9ejZ2VCOLwNhR
+      eoIb2NhehiyaSMO9zOV0QEZXsuSycN9HsEZYtQA8lc28f+jP2Fapk00lmOk9yZFP5tn5/TdZ
+      73vQtw2U1Dw9h6eYy5Zw8NX1+KwimAZaLsHCzCTjo9OEUjmySoiUvpmb707J7sRts+R3m0QR
+      URAR7vrhRAJV1QgDo0RiCXy2fua829nhTTMRmyemO7jeZ2Pjn7t44IivqySjs4wOjjC7nEBT
+      IoxkKthhmIhWJxWNTUx2X2Om7RBlMz1cKe/if/eImLpCJrbA9MQ4IzMhlFyOZDJOSclNQ0Xs
+      Lhc2SQAEJFlCFO+1xkDLJZmfHmdsbJJwRiWxmMLbtBkTGLsxTtOO9/HYVl77goBw5w6cKGOz
+      2rCsbOvIFgmLzX7r39Kz3n57zniMVauE3eWnoesQSuYjLvcvsn7nA75iGmRjy4RSfuw2iZya
+      wzCdiFqKid4zXJ73sX33PrqcMqnYVU4fWaVJnhJqxGvMxxO4F0dxtf05JbYBRiIxYjPDjDha
+      +TfOBzejzF3gt19G2Pr6Pl7baoPUGPqFaP4tK8j4iivxeS4wNTFPdDhEe8d2JCAbmuTcmW6E
+      2u3sPdiF1Ugzce0kE6u5By3KtVPHmRZr2Ln7NbwWnbnrfcysbE+JksgafmE/cR77JFhT4oQi
+      GRx2OyAg5DKkV8ZUU1NIZzK3h3hBxlfZwevvHaItkOHqmcvMJBVQc6QUg0BTG3UlPtwuB2Yy
+      zup359zU1EjMLUzSP+ZkfZUFR3EAqwELV24gr6vE/hCtpBdmEJq3sqkmgMtpR9RVcop6q+NZ
+      PcVUFvuJ9h/nYryKDeX5g5tsKo3kLqK5uZ4irxu7BVLJVd6FEmdR89Pa2kSZ343DJqPnUuRW
+      nmFxhZvx65NkVoZGI6eQ0/XHF4VpoqaihGOZlVFXJx1ZIpZ58ff6v41VjwDp0Azdf/gFo04w
+      NRVVkPGUtLG9wQ/YWFeR5NhXX7NQ5iCbjBOZjWBrvrsNwVpEc9dWhIunOHGsh7de7cDrsHC9
+      5zBfLRahhFMIAR0IrNI6AX99LcK5r+lz7+eADaCYCusVvhxKsqHLAw+eAOGsasD66RE+ydVi
+      11JoSoJYrvj2ByQHVbVl9F25gbFuE0X2/H6Qw+dBSF3j3NdfMeZSCCVEVn2maS2ixnmV7rPH
+      mB91k4nFSGUEXKVBAAJtB6j48Ai/+bCfMq9AjjgLSecTGRViw2c5Em7gvUPrcZJh9NSnLLT8
+      Oa81v7z7pMJqiuSZukoivEAkY+S7kWlgija8xUH8TgsCJmoyxMxCFF0UkS12rJKEzeXB63Yi
+      GCliURNf0I0EGLkYi1GdoqAfIRdneSlMVhcQJQuuIjeSIuc/m0uwlJUIeBxIogCGQiyZw2pz
+      4LDdo2EjS3h+iYw9SFXAAZgoyQhLMRVfaRCXRUIA9GyCaNbE7XZjkyCXjpNUrPiLnEhGltD8
+      ApG0gWSRcThsINkJeF1Yb265ZKb48vOreNu2sXV9GbIApqGQjIQIxTIYgojV5sLtlMDqxe+U
+      yUaXyTn8+FZs1rNxEqqM2+XML1jzN0AuEWUxFEU1BGSrDZvNgd1mxeV1IWOQXJ5jIZIBScLi
+      sGMx7QTKfNgEg1Q6jSE68DgteTOj86QtQYpd+WtmIosoriA+K+RSSTKqgMvrwSKYKIllQqqT
+      0mIXEhqJxXkUVyXFrrsnCqZpkk6nn8pJsCiKuFyuJ97uTbLZLLIsI8v557EqATwst5sUeAgP
+      iZvf4i5LBOEh3tVPj7seyx22mKaJlkuxOHyFq4uwcdtOKr3ybVtNk7tv49Hu4tue4b0/2aNe
+      41G5KYCnUWBUFEWczodYqD0i9wrgqRzdPtoPshqxPH3+2D2YWpaxcx9zbMbD9r37KL+z8+e/
+      +ESE+23P8Lvu8Pfju3Zae1o8lRGgwMuNaZpks9kXUgD3jgCFeIACa5qCAAqsaV4c982XhjsW
+      +894of84LI9H+eX/+atnbcaqyc/4b683Vy0AQ1PIpFO3DrdEix2X0478jSP9J4CukkpnMC0O
+      XHbLC9tZ7kVVEsRjAv5Szwv7BtJUnfB0/Fmb8dis/iBseYpLF88Tk4uxCxq64CBQVk1D0zqC
+      LvnJdtJcjKGr18mVbmBLcymWJ9n2M8MkHh7gwhkL+3+0GfezNmeNs2oBaJkcOAJ0bNlPhTVH
+      aGaYK1cusBjJsnd3BwHbE5SAzUdTxyYMy7MPoSzwcvIII7CAJFmw2R04HA6qm7cQ8Lk4fnaI
+      oekatjf6EUyd0OhFznWPEjftlK/vYntbLS6riJqKE1qcJhwJMzw0RgI/nfv2E4hep6d3jLgZ
+      YOOBV+gsdyPoOWKJGKLLjtcJemqWgRkDR2aUa/2TxPHRtvcAXVUeBHQSS+Nc6+ljNpYBm5/W
+      7ftoq3QiAvHpEaJWJ7GBS9yYjGL66tmxo4v6UtddOwFGaonenksMzcXB4qe+czMdDaXYlBAD
+      szpNtcG8mzJZFkYXMPzFlBa5yMWmmJzLkF0cpm8yglS8gYP7api7dJa+2TiWsjb27uygzCMD
+      Brn4LJePTjExHcda3MSBQ9spXYnuUePTXD7fw3g4g9VXS9eurdT6LECOuRvT2FtqMKf7uDSa
+      prF9Iw2lKyeneo5QeJlkPEN4eoDByRBSsImd+3dR4xbz1w2NcOpEDwtZAV9lM1u62inzvDzT
+      y9Xy+LtAgogjWEFlkZ3k3BJZQJ06yYenI9R27WbP1hYYOcXXvXPohokSX6Dn9DFGMz46duxj
+      Z6PG1//yC67FvbTt3MfOeo0TF4bRDQNycUaG+hlbykcRa7FBvvzdFwxlg3Ts3Mee9VbOH+sl
+      ZQJ6jmRGw1fbxo5du+lqDTB25COuL+eP6yMjp/nNb4+ilLazc99umhxh+odGiN0ZBGzGGbh0
+      mVktyOYdu9jaXos1tUAkC+TmudA7jXYrIUCKqav9jC3G0TFJzvVy7GQvSnELu/fvpCJ2in/+
+      1VnUsjZ27d1GMDFB38QiigFoColoHEt5G3v376HNOc5vP7pMHCAzx/nj3YQcNWzbtZOWcpP+
+      06eZSQNkmTh3jaHxs3x2dBBrcTlFrjsmhkaGuRun+eL4DbTi9ezc/wpNzlnOnh0lBxjL1/nt
+      lzdwNW9hz64uSrUpzp3rYTH1cju8fRtPZA0miDZcFjthPYdGgqtfXaXxrf+F9sp8QEmVJ81P
+      P+4n2lmOzRDxltRQubGddW4BrSJO6ecmLdvbaZAE8IU5PLkSwWUaqIqCudLpTEycjbs4tK01
+      v+iuNQieHSGNiVtyUlbdRFDX0XQDU3WhVA0xPJegM+hDVyy07D/A5uZyRAGKtTlC8/rdwShq
+      hlBCx11dQnlFBXZZAtNEEIGcRjan3eHmYKLlFFTNyAf5iDJF9ZvY2taIKIBr2k5PdjNdrTWI
+      AkgzowyaSj74RLZRXL2eDesb8IhgVpcS+Zd/oHe+i9bYCFFHERs7OqjyiBhFNmKh8wyMLVPZ
+      LqFmhzl3bD0f/OkPqHfJd2fjME00RzEtm1rZ0laBKIDfucjkkRgKWcYu9eNq2samlnpsEtQE
+      JJaPDjIzHybYGFyT08wnswlhqmSUHCoyIsvMzFewuUpeGV4E5NJq6hMjzJkG9QgIooQkivmt
+      KCEf3CLJYn4YfsDWoCBZbgV33OWjoytEF6eZmZ1nbjmOoiqkwnHstxxKBSRLPqBGEFbcCe69
+      kLWY1gYXRy5fIJ2sozJYRKC4nJKA+8FDpSAgSnLeWS//z3v+fefFBARRRBTz9guSi8oKmf5E
+      lkQsh5pUWJ4fJ7cEaCmSWTBTKRS8QCmv/sX7NDr+iEWCiCxJt66LKCKaAHGWQ05K1ruR5ZXr
+      egOUC5DMpdGgIIBHw0RNxghnMzhrgjjIYnUa6Crc2rbRTQyrhac508xF57jW3Y1es4Mde4NY
+      UZm9+iXXV9WKTHDDPj6ojTA9NUr/9W76rUE27dlP81M9MtRJp3SsFglJMsmloiwvLpFd+XWc
+      JfVU1BYhowM27I/knSxjsQuYhpmPSxUAw8SUJGRJLKwBHhU1HeLGhYssGUHqa/xIBFm/LkbP
+      1ZUgbgziE33M+EopfYpOXEomi2l1Ur+uFr/Hhc2iE42sMgePppDOZDHsRdS3buX1Nw9Sa5ln
+      JqTk3/CpNCnTBEy0TIZkJvMEEqoY5OavcjlcRUOJBX9xEXZvkLqWTezctZvdu3bS1dFEicf2
+      mG9oD9UVBiOjs2Q0AzDJhuaYUzWcDg+SaaImQixG0uRnhTrJ5Xki6Zd7ffAII4DC3OA5rgxP
+      4DByaLKHmuZ2tnetp9wjAzL1+w4w9PlH/Hy8kqAlxXzEoHn3IXyySPqB7T8aDp8HixLm5Kcf
+      MehWWUrYKHOu9vYyTF85y8WxBEUBL2psnpS9kf0VNrBX0+44zy8/jFHnMUilU4SWNRoewVbB
+      yDDbd47f/Xocl5FiOSmxYd+b1LoEJEsjLfOLnP/9L7lWUoYls0zCWsn23btY/1hewhbKOrfQ
+      dOwIv/zVJNV+kfByBHfTdurK3EiYhIdO8+VyEz98cwMu0oyc+Ii5tr/i7ZaHiaN7MVm1N6iu
+      5kinkiiGAKYBgozD7cFhle7wmTfIxiPEkhl0QcJid+P3urBIIqauoqgqks2JRQTTVEhFVWxF
+      rvyMSc8Rz4DHZUUwdTLZHMh2HFYJU8uQyEl4XTcz8qik4ip2jwPRNMil48QSGTRk7HY7DpuI
+      KTlx2UTUdBLV4sAhSwgCGGqWrC5gs9pupwU0dXKZNKlUiqxqgGTF7fbgdtoQBRMlFSUUTWGK
+      Mla7HVmQsDkd2C0SupYhq1lwO/LzPj0bJ2k68TnyItSyaVTRgs0iY+pZktEUOU1FMwWsdhc+
+      nxuLKAAmupIhmUiSymogWXA4HbicTqyySSaeQfK4sN5vNDV1coqCiRX7StC8rufIZsDhtiFi
+      omYSRCIJVFNAsjrwej04rDICJlo2SUq34nHbENHJxuNoNh9u2zcDYsavzfCPf/O71XSd55KC
+      O3SBVWOaJjOD83z4fx191qasGsMwEYTbvkAFARRYNYV4gAIFXhIKAiiwpikIoMCa5kV1R3+u
+      MM18kIsgPjjAZTWffRqYpkE+IOTxrq6qKktLS0/GqGfI6kYAQyeXSZK6qxqGia5kScaTeUev
+      NYiZXWJ0bJmHKVFhZpcYHQ891GefBsm5CZYyOmCQS0ZYDkXJPeJpXl7ML/Z/qxOAmmJu5Ar9
+      C3e5UJIMTXD14lVCuQc1YJCNh5idnH+EtIerxSCdXGTq2zpbLkT/6CKa/njKNWI3+PzLgYc6
+      5NMi1/niq4f77NNg7tIResMKYJBYGmNwaJLEi1nw8Ymw6hEgk4gSuyunfj5RVCwUeYgySSbJ
+      5VmGro/ypAsFfRODRGScG1dm+KO6zM5wumccVV2LQ5eEr2I9He2N+F7ezIcP5KmsAQw1yuWv
+      PuXSdAqbt5quvbtprfKjz/Vy8sJV5hezRL5M4cLBum3bafTB0ugVzp7vI5QTcJc3s+/gTioc
+      Kstzi8SW5hkb7WdoLkv5+p3s29dBycrppJFZ4MwXX3BjScVeXM+OPTtoKvOQGu/m9KVrzExb
+      0L5cwEoRrXs6qXbZEID00jh9Vy4zN6Fy5EgEi81FWX0LGxpKkFKznPn6KP2LCs5gHdv37qYx
+      aEcAFgcuo1dvwLLQy9nrcZp3bGXd3XdPemmMS+fOM7KURXIU07JlF5uaS/lGsJwSYWg6Q2VF
+      KS6HDORYnpwjJXqoqC6+VYEGTJTIJBfOnmd4PonoKqV92y46G4rztQ6W+zn85TlmswKB6nZ2
+      7dpEhWcl/aKSYLTnBBf7F8jKPixLUco25+3MxiMspyXKHa6XJNx09TyCAEwMQ0fTbk4cjXz1
+      7Vt/TtD96//J+Lp3+OFON+pCP0eOnkR88wAt/iqa18UQhCRN7e0UIeF2SqRC41ztnqByz9vs
+      9QikF/qZXzapqFFYHOrh8qyTbfveYrNVZ7LnCH/4yuT9dzbhNec48j8+R9v9Oh/st5Ga6uXk
+      qbNIr+ylJlhHU0MEPWejtX09Dqz4rLdv1+oO5h3nZnO0bmjDbrNid3sQ1QVOf3yUSNNOPtjj
+      IzE3TH/PWeTt+6jzy8xfO81UJEFqcJ7Krbup8DkQonc+H5V43KC8cz9tHgdqZJqL109zRT64
+      kkD4DpQQ14fCeP1FKwJQWBwdYV6upvhOAShLdF/qI+vv4O3tZZjpCKHlJeIUE4gP8slHVyl7
+      5XV2FsksDt/gWvcVLDu3ELTpDB39Oee1rbz67k4cKPR9vrgyIurEZscZDlnxVFSyarepl4RV
+      33YuPMWJIz/luuumb6KJmsliL+ukHdDHz3LE2Mp/2lmf/wEDu9i38HPOjoRZv7OasmARyyGZ
+      0spKSgAwiKpJclknLq8Tl9tBUWA/1ULeL8awFdPYVENddSk2TJxb95I4c5qJ5U7qZ0/TV72T
+      /7WtGlEUCBbvIDH9BSNzy9R2VFJaUsTslJ2yyspvBJ/LDjfFwQAOV5aK8goc9vyjSA6cYjyw
+      nrdbavA5JXyOOqZmrjI7tUiVv5Jscp7BgXq+96Mf0+TJj0J3ryFtlDc0UqxkSKcVhKIigp5l
+      lOUYSoP/7p0f00TT9TtyopoYuoYuGHdne87lSOomdqcTh9OFK1BEea0AGEz3XsFs7WJzTRl2
+      WcDbWMnQhUlmF+MUFw1wamw9P/y7LopXJrulfivTK0aYhoauyXfnZF1jrFoAtkAtB378Cq+2
+      eFb+j05o/ArnL8wBkAgv46touWP4limrCBAZT+V90b+BgNtfS03tGP2nLxAp9WB3BmhsbrjP
+      3FRAlmUki0AimSEcjlNeWsTtpKJuSstN+lMa+v1Kfz0E8VgSMaMwPjrEggyQIRXLYS9V0ACL
+      I8C2A2/f6vzfwMiyNDXBdChKIhwnZ+ZYmE9R0dL0aAYBuEtpq/JwabiXC6lZAnY3RdXrqC4V
+      iUVMDHmW4SEFWQDUCEpKRdNUjOlJEk17bnX+At/kiQ98VpsNVb1730XTNKwWyx9JfisgOwN0
+      7nuX+vACExPjTPedZkLx8MGWe91wTXRdRVNNPDYLNpsdVdO4I8IDXROxyOIjJ9q1WCQ0RSWX
+      yyEZAiBR2txMSV0QCyBgwWr9lh6VnObSlSGc9Rvp2rMRWUgy0NP3eLtego3Kjj0E62PMz40x
+      PDjKxOwSwoG9WCwGSjaHklMwRAAXDa3lVJe4EeZkTCVfn62ggfvzxJ+Lo3Y93pGLDMTzqwJT
+      DXFjME1liTsf+iiJaHqcdPp2IT1NjZNMS3hKa+nc/gqvb/YyOBb6RtumobM82ceiUU110Erx
+      uloyvdeZzeXbMlLz9M8KFPscyKKAZIoYSoz0H9vnttpwxKKE7tgG9VVUYDOsFK/bQFdXF11d
+      m2hrrsHveMicR5kkUUuAddWluJ12LKZOMha9vwBWgmySuo6JiZ7LkownvlmsW8mRSmUxnX5q
+      m7ewd/8OitUxFpNWymqKUTQndW2deXs3d9JYW4bHIiGW1+EdvcR48mY5mQzJtH7/KY9posSX
+      mFtOrgTEaMQXpll+yQPmn/gIIHjW8/a+OX77P/6RnoogeiSMEWzj9fpiREHAU1yMS7jElz//
+      GR5ZpO7Qe3Q6Zjjx0UmWbEUU2XJMz6js/VEtoENmjgunLjE4XoEQXiDlaOCVt7YStIFUtoW3
+      Nn3Fb//hnyiv8ZEORZCrt/BadQBJFPH6ynELX/C7f53CZfjo/MEBOorctzuyrZad6y7x6//x
+      CyrLvBSXd7J7+wZ2r1/mD7/4By6U1GDNLZOw1LD/4B6aHQ8RGFJUzTr1cz79aIIyn0g8nkN0
+      Bagrvs9nHeW0es/z6UcfUltsIRZJkstYKL+3MI6eYOjsUS5MKQSLPGRCU1C9h3eLBbzFW9k+
+      /zW//sd/xF9Rgh5dRi/r4I3926j0trG39Tqf/fS/EigvIpuRkGNxyu9ruEmk/zifL7XyZ++1
+      4yLN8NEPmen8O77XVgiIyWPmd4AMQbojFaKJaRjouokoy4hCfnGVy6RIZ3VE2Yrd6cAmiwiC
+      gGmaGFqOdDqDhhW324ksGGhKjmwuh2KI2Ox2HHYrkpCg9+wV4kYp69tKELDicdmRV64DK9dK
+      50+nZYsNu9OOVbp5LQNDzZHKZNBFB25XPoXj7Te5ialrZNIpsrqIw+XCbhHB0FHVHOlkDiw2
+      7HYrFllGFAUMVQHZinRnMgZDQ9UELFYJwTTRdYVMKo1iSDhcdmRBRBRFREkEQ0PVBSyWfMYM
+      Q1NIp1IouojN6cQiCoiidDtJQP4C6LqOkkmTVTVEqxOn3YYsi/k2dA01lyWV1ZCsdhw2C7Is
+      IQoChq6QTafJqmCx27HJIqJsQRbB0HUMU0CUJERMDENDM8RbtumqgiFasUh3j32maZJIJIhE
+      Iqvvcc8Zz3k8QJzec9dISTVs3lbLGj6vea4wTZNkMkk6/azOsx8dwzBWAmLyon7Od3+tBErL
+      cYnuNZmy43lGlmXKysqetRmr5jspkfTksFO5rvFZG1HgJaawO1ZgTfOcjwAFnldMQH1ML9pn
+      gWaYmLqBKeRtLwjgecA00E3hdjrDP/o5E8M071rEPStmY1n+8/GBZ2rDk+DhpkBaioX56DML
+      4vijpJcZHJ0n9zxvZD0MsXH65h/irFhZpm90+Qld1CATW2BmbonMc/fDfnc8nADSExw9cv2h
+      ffiT4xfof1K/07eRWqRveI6Vg2BSi9OMz8yReUQ/oGfG/BWODT5EuaH0FMcvTazeeU1LMjU1
+      wXzozm1Lg0x0gemZxT9+Ur4GeDgB6GmWlxI8bL9Kjp+n77sQgH8dB3a14FqZDaQWpl5MATxt
+      tBSTkxPMhe4cZSS85c10bLif0+Ha4ZHWAMn5SRYzGRIzA5y7NEjMUsaug++wu83K+LnL9Fxb
+      YGzsYz4eAluwnk0drZR5JOaufMonx0bJWHy0bn+FvZvqcVlM0olZJoZiKJkxLnX3E1K97PjR
+      v+VAvQsMlcWh8xw9fY3FlI6vppM9+3bRWGyF5ByXpyy80l5GaPo6p89fZkqVWCLzSbgAACAA
+      SURBVJqbwWm10rTjLda744z3nuNkzzDRjIavpotDr+9ZqZiiEx48ye+/7iVqyATqOti3ayu1
+      xfbbp7BaksmZEDZ3EGf8Gp+f7Kf+tb9me0WOhRvn+OrMNcIZk/JN7/LuvgZcIhAd49KSTFGk
+      lyPn+4hofroOvc7ujlqcEphahpn+cxw/e4NQxkKZO4pRvzt/udQSfRdOcr5/lowuULHhAAf3
+      tVN8y71WZ+baEY6fucJc2k7L3jc42NWIx3r/NYGWTTJ0/ghXepexOOeZHnBgDbSyf28DaniB
+      xbREZV0N8hrdD3wkAaQW+jl8epTGfe/xk//4Bpm5AbqvnWSk/H1q2zZhhLrRSvaytxEE2YbL
+      AfHez/j1ZRc/+tu/p8gIc/lYD+dtMnvaK0lHhznx+QAN773Ln/zt61iUG/zqp0eY+j/ep3Tu
+      Omf6o6zb/wHvVLhIhmeJxGJQXAKxcU5cd7K/owpvWTMdbSGsWSutbR34rQJ2N2gZBamogdd+
+      uBWHZLLUf5yvPzzB2z85QMlyD789l2D39/+CGq9MbHEJNZNAxX7bnVtLMjk1gRm/yGjMQtf+
+      92gKqiz2n+fEUJpt7/4ltX6RqZ4v+Oy4znv7m3HEJjnyu15a3/g+f/YfDiGE+vjsyhAzZcU0
+      lUpM9HzNmTEne37811Q4TFKXf8O/rnjAZbM6nrpNfK/zADI5Ri8c5vPDAh+804YTYOwil9e9
+      w3v/fi+WSD8fH+9nvKqE9mrffYdzyeqgbsMWmrIjOIpbaF/nR5Ad2NAJzU8wsmzFV1WDa41u
+      hzzabZsOmrfvZnNLDW4rWLx+/D4Lqi7jCPjwOi3YPQECt5y6Jvn88xBt7zaSmp0iBQSD8Nng
+      FF2NpSC7qGndya5NNfnAFWctFbYRFMAaKKfcNs5432XMeDU+v4/KipWGTRPdyLtCW+xuvG4X
+      TsmGvyhAwApgoqoygpZhun+ccCJLLm0gGXNE0lBWVMsG9zCXey6TrirF4y+mrLjoG+GBpqrh
+      aHiFf9daku9kyTl6JufB04CYWmQ6BaqzBsfYBYbDzXSaBt5Nr/NmexVWWQQzgNueRtINNG2M
+      8+edvPG/HSK40r7N70aYBzCQLRJ6OsbwxDCxtEo6LiGaS8QhL4B1O3lvWwOiKICjgmpXBFHX
+      +WPLAkGUcHp8uFwunB4fgVs/igKmgfni7WQ+Ub4j3ctY5QyR5TDOW770xezYUI3DIpH4lm8K
+      jnJ2vvkuraFZJvqHuDp0HX/9DvburOfB2cJVlib6uDyQoHn7NtqL7CjxML3nT+b/bC1l9w/+
+      hA0LE4wMDXF1YJDS1i1s7ajHdafvhUXGIkm337CiiGhqpKNhll3qrelSZct2Kt1A6lvuBxER
+      Hf1mCMOd6CnG+i4zFHazeccuNjkkEnMj9F598Z3OnleeigDsdjvhSASDopVOE6ChwUK3cx1b
+      t1Xk37BGlmjCeGCBbSWbRQc8wXo27quhYvQ8Z85PkbyPAGRZJ5NR8lkerCKgkkqp+YizygAu
+      AbTQMLEklABKOokm2/CVN7K1vIayy2e5vjxPWrtHAPdic1FUFCRoK2FD10b8NhFT18hmUpgP
+      eKKCUILffpqhmTSl1U4EDFKpld0ZLUciJxKsqqeq2ItoqERTYZLKw+z5m2hKmmRCxeH3Y7vT
+      fknCoqpkM1lUEyz3a840UZNhIqqd4oALCZ3k8iKKs4yA8+VdIDwVAbiad+D4xc/4xVwl7kAF
+      Gzduon7fHoY/+z3/3FdE0C+QiGYobtvPoU2V39qWGpvkzOnzhPDjc+gsz8Wp2vIW/vt81lNV
+      hb3/FH/4ZJGAPUP59h+zLuDk2o0z/P7jUeyZJZK2WtwrcxwzMc7XR3tI2UvwSmlCUY36ra/g
+      fVCKBMlJbWMjiyfP8KtfDFIZtBGdj+Ndv429233fOjKJUhEbtlby5Wf/ykxJKXI6g0MIY5QD
+      FjflXoET3V+xNBVAj4ZRPcXYJdcDDAIMjeWBs5wadbH/vV2U3vk32UtdqZUjFw8zN+VDEOp4
+      7b22exowiQ6e4g/LzXzwVr5AxvDxj5hr+/e807rW4wH0HImUgdPrQAJ0JYtqilit1rz/v66h
+      qCqCxYFVAtPUSEcjJLIakt2Nz+vCKkI2FSeZyqCYIlaLDYfLhdMmYxgKSk7A5rSujBg6mUQW
+      2eNC0hQymSSplIJugsXuwu1xY5cF0DJEcyI+pzV/Mmrq5NJJYokMumDBHwhgE1TSiTjJrIpg
+      seGwO7GIOrLdhWzmSKXSpNNZ9JV1hMftxHqXL75ONqciShasltuvVdPM++cnkykUHWRbvm6y
+      w25F0rMkVAm3Xc7bZWhkchqyJe9bb+g5ErEY6ZyOaLHjtMuYFhdeu4iu5EgmYmQUE8lqx263
+      IQsCVqcdyVBIZEzcN+8XnWxaRbRakPQ0Fz/9Z2Itf8mrG7z5+ODb1mJoCsl4nFROR3b4CPjt
+      mEoOVRew2m1IK/md0roVt8uKiEEuGUezenHdEwJqmiYjC1H+8/GJx+l7zwXPeTxAgYdFSfRy
+      9JTEvrc3PMTa6PEwTZPJ5Rj/3LPwlK/05DENI19ddMWVpCCAlwRTy6EKNqzfQeDEy1QgY43u
+      /r58CLLtjlQ0BR6Wl3d5X6DAQ1AQQIE1TWEK9B3zrAtkPCmM5Rmiv/ovz9qMx2YVAjDR1Qyp
+      hIEj4H6usgmr6TDLUYFAZdFznznCNGNMj6mUN5a80HN20zRBe/ELC6xqCpSKjnDpWB+xh/mw
+      liU8P85M9Ok/pFx4jOvXpm55IETH+5hOPJ9RHro2zbnDg8+sQEaBu1mVAHQ1SXghzkN1aTXF
+      3NgNhhYfWDbmsXGUtrBtZyPelX8v9Z5j8DsQXoEXn8daA4SHrxF2eFm6coreiShiaQevH9pO
+      jV9n4OwJuocnSbp0lHEbFK/nta46UOKMXD7FhRszpAU/HQfeYHeDH9AIT82RMtMsj/Vz6cYU
+      pn8dO185SGeVCwGdhetH+OrsBFnZRsm6jezu2kDQY0FNLjK94KTZpTJxo5/ukVlC6SNofVYc
+      gUpaNnQQZIHeC2e4MBJCsLiobdvG9o2N+KwChpZm+MIfOHcjhGJxUb1hB/s21eG6a1NdJzJy
+      li9PDJAwZfw1G9i1dSOVRTYwMgye/JTTA2FMVxmbdu+ls644745kqkSm+zl/7jIzMQVb0E6a
+      +nyTRpbF0aucOdfPck7HGaxn265dNJU6EICl/m4iDi/zV87QN5PEVrWVd1/bTInLioBOenmS
+      nvMXGZ6PYzrL6Wipo6Klg6pvOwkzsgyf/ZxTfSEMq5uq1q3s7FyHz742My89lgBCA4f5cLae
+      d996nR/tgtnuY1wdnCa4pZ7KplbqswqRojY665xg9SAYOaaun6Zn1s2e7/0JRWKMCx//love
+      v2JbUCU8donDfSk2HtjPB517CI/fYKinh9KSfZQsnOI3lyXe/+GPcZFleSZMJpNC9/jJhEa4
+      3FtMXUsHpbVN1Jf1YG1uo7PcgWR14LVBbimOVL2NH2x2I2aXuXruBpckmd2b69GGvub4XCXv
+      /vAgdjPF7FiEpKbdJQBjrpvfXUix760fUGwziCwsk0vGUYuKCZ/9JV9HOvngx69hzUxy8kw3
+      TucuWkqdRCaucOLsOJVb32B70IoSv8IXX6w0qqaImwG2HHoXt0MgMnmN3jPHkQ68QYNfZO7K
+      p3yV28G7r75N+z6D8VOfcWaonu9tCpKc6+fI0Us4Wvby7q4ARnqas591Y2vooOpbfrPEtU/4
+      OtTE9z84gFVPMrmQRsnkwP60z4+fTx5LAKbmZvt7b9NRmXeWslR6GYsLGKYFX7CEgN+NHiil
+      oiJfS0BJhZgen6Ju599QUyQAHvZsc/PfTo/Q9f1qTCPAxn0b2dxaiwOwpKtYjAyjaJBLxjCd
+      lThkCy6nB3+g/HZ+UFNH0wxM0Yq3KEjA7SAVLKOi4g4nsoomWpUcqXQK1eKnvNjOZDZCVq1H
+      S8YQXE3YrVbcDi/t26q+kV5dSSfQbE4cFgsOtxNfUUn++voYp07Zee0/dRIUAe8GNgWvcnYs
+      TKMH5kaHcGx8h23NfkRAdZXgvLmKshXT2Ogjl0mTyqp4/UFcrmnC8SwNfieCWMSu996kdSWx
+      rljlZFgFtAwLM5OYpTvYs6URlwCKI4lV1/5oXMBNEvEIdpcXm8WGy+tjU/DRU8m/DHyn26CG
+      HieyqGNdHKB/payQHpfwZhMPXBQ6G7ezse8Epy6kKPc6cfjLqKutwGt/mFswSC2MMTQdJZOK
+      kFIgMTuHWZ+vUeNr2UXN55c4e3GZoMuJq6Saxpog9jviBO21G+kaPMn5S5eo9Huwe4uprq0i
+      oIZZsEDtYD/9K5/NZAXSehZN00nEslRs9t93sWVkI0yMTRKOJ4kkMpCNMpuW8T3odnQdQ1Ox
+      V1bciod+WMo3HST4aTfneioI2F24SstZV1WK07I2j4S+UwEIghVZzpHNamg3n7ezgT07qnmg
+      w621nL0/+AGRhUmmJicZvTxDytzOluZvd6fOk2Dg/FVmi1vYt7UduwSLvecYXomGsnoaeO2H
+      5YTmJpmYnOLG6Sm0119nU9kdI4glyNa33qdpeYap8XHGbswQzZpsbbJiU3KkNe3W1rClvJ1d
+      wTIkEQTRRLtv9Askpga4OhqncdM29hY7EJKzXOwbe/DtiCKIEnoyhYZvVT+i6G3m7R9XsTQ7
+      ydTEODfOz2Ps2cmG6qI1eSj09O5ZFDEMk1wyiY4HCZAtHspqAszaymjbVIFVAEPPEIpqDzxX
+      yCai6HYPgcomAhXVOLNfMxqLoxrfFIDNobIcykHNzQ6cJhKxUbujGp/TjqmlSCdipKT8vlE6
+      HkFwByit20BpbQ3SL3/LQjIHdwggl4qjyQ68JXV0lFTgk85wI7pM1tpMa+lJEu5m9je5EAFD
+      iRDOuJDlHC6XldHhadqCNdgF0JO3R7tMIoG1qJTqkiIcVpN0JE0smnrwy0C24SsKoFzrYaDa
+      Q3PAYOpqN2NJbs3/1fgSS5qLiiLHXUm0ErEINpePsrpWyqpLMT8+RyyeRDf9GPElQqqT0qAb
+      CY34wjyKq5Kg++UdHZ6eACxuykoCXDv+O3424CHtbeev32ynvn0jE1//jv/3mhe/NcdiRKf1
+      zT/ltfsVkLgDIdbPr/+lG4qrcWkRQpqPnQcrcEh8Y1u2YvNWlH/9F/57fwUBf4DOnftoacry
+      4W9+w1C5h0wihYANf3P+87nZ8/ziyASesnLk1CIhayPvB+8OQhESY3z22RkSjnL8UopQUqJ9
+      3+v4LD663tjBx5/8lP96IkiRNUs4IbPx9ffZ1eClpqWdgS8+4v8bCuIzY8R9Liwru0CB2kqU
+      T8/w4fgIPiFGQnHiLH7gBAgEmWBdO5uz3Zz/4n9y3PDQ1F5DieNmVZ0EfUc/pjfwJn+x9+4l
+      sTJ9jp8dn8BdXoaYCpGS6zhQGsSCydLACT5bauHfvNeBizRDR3/DbOffFwpk5DHzBSd0EGUp
+      X5FL1zBFCWnlDWMaOgYCoiAiCCamYaLm0mRyOrLDhdMqcTM4I5vJoZgSToctX/hOBEM3MAUB
+      UcwHpJiGkU8FKEoIpo6mqWTTaXTBgs3hxGYRVwJOdHRDuF1UwjTQ1CyplIJkd+K0WxBMAyWT
+      Iq0aWO0ubLKAIIqIggimhqIo5LJZDMmGfaWQxJ1vTtM00FeuryJis7uwWySEfEUQdFUll82g
+      CjJ2qx2LRVpZpJtoSpZMNochWnHabYiCgCRLcLOARzqHIdlwOSwIQv75iaKAoWmYknyrGIdp
+      aOhISEJ+4W/oK78LoKbG+eoX52n+yU9oivfw8zNR9h3aTV2R/e77MHRULUcmmQPZit1hxyKL
+      iCt/00zxVuENXdMwRfkbYaumaZKaGkb7+f/9CF3u+aIQD/BCopEIzzA1Hkd02RAFg+T0NQaU
+      Tr7/djPJG9dYsJeyvq6Sp7G9b5om6YVpzOO/ePKNP2XuLZBREMALiUEmNkd/z1WmYgqmaWIL
+      NrNzZztFFgNNM/MlmR6UbPcReZkCYgoCKLBqXiYBvLzL+wIFHoK1uPVb4ElgmmgvYJE8PaeA
+      JIGcXxwVBFDgkYj3DXH+/X/7rM14bJ7rKZChZolFwiRzz1e+cy2bZG56nPAzSayfY364j8Vv
+      Sb/4ZFAJTwwwHX2+nv2T5rkWgJZcou96D5Phhwlu0YhMTTI5u/xw8QqPY1c2ydzMFNF0vnMY
+      yXEuPIWCCFp8jEvfqDSisjA6yNJ3IYDJQWbjBQE8M0wtRyIRI60+TApjjej0NNPzT18AVk8x
+      rR1dVPnzDhxGauI+HfXx0ZPj9AyE7/m/Dpp3HaSh6Ilf7h7s1HS9Qnv5yz1LfqHuTouP0j1q
+      4E5c51T3ABGzmB3v/4gD9Q4Wh85zoucaCcnJ7PQgDksRnQf2U+vIsdB3nsOnrrCU0ijb9D7v
+      H2jCLQLRcbqXRPzRG3x9ppew6mPToTfYt6kep2iSnLvC4c9OMZkycZY0svvQfjaUuVHTMWZn
+      ZvHUbMQydpZzPVeZG3fx0UeDYAvStrmDdWVWpi8c4fCFIZKajL9+E4cObKXKZ0fQs8wPXeDY
+      8SssZgW8Ve28/s4rVN+RhDY0eJoz3deYmRrno4/6wVZCx5YO6kpEZm4M4Ny0gyoLxCYGWEQm
+      NnCeM1cnUbyNHHz9dTY3+JEALRui7/RRzvbNkJGLaKmtpHL7K3QGLYBGYmaAkyfOMrKUwuqv
+      Y2N7M7Ub2qh0KCwMDqI1ddFgfa7fk4/FCyUAPT7K0d+PsP0H3+Mv/uM7yJFL/PSTbjb/h4ME
+      6tvY1KKwaPXT1tGIS5Bx2DSWh7o5NZBgy/f+msZiCzOXPuKTr01++Foz9vgUxz6+SsPB9/mL
+      v38VITzA5z1DTJYFaa3IceZ35yj7wV/xbtBCZmmIiYyBYYKaDDE+2EtF8UZaqjvYQZgRvZT9
+      +xtBkHG4nIiEydk6+NFfv4pL0pi7/Ae+On2DPzm0ETM6zuXuBTo++BvW+0RSs1eZCkP1HTEp
+      vppOdpgRpsRy9u9vAFHG4XQiEmHkwkVKWnZQ5YD4VA+/v5Jl33vf4+8OuogMnqd7+DJzJQep
+      diU4+bN/Yrr2Pf70b7+H0wxz+l8+ZKF9D52mwNLAOb68ME3Tnu9zqMZHcr6XU0evE2huA3LM
+      XL5EprSTBu8L1U1WxQt1Z6YoEeg4xKGOFQ/QinLKtGEUQcDvcON1OknZ3PiKivKFNpQI/Ytx
+      3GWt1Bbn80UUrdtE0VfdjCebacXEt/FV3uyowWEVwe/H7Ygh6TqQRVPtGGqajOrHVdFB50oq
+      E9O8nd5EduST/8p2N0VFd85LSmhqz5KIxljOqkj+ALmJNLqmI5gKpiajKhkUw4u3bged90Sl
+      yA4PPo8Ti81zT7t5A26eXpq46Dy4m86aYmwS+PxenNEUugEsXeK6voefHGzFLwI4sIkiOiYo
+      MWYW45S07GJjQwl2wUS127Fys+28L9fLzgslgFWjqmRTIeZzdvpWikzouRSKw0TLPuC7Qjmb
+      Xqmg+3ovVzxWTNnFupYNVBc95OlnZp7LPSPkRAlDVTEy8yRyZYCA219HQ8scY73XSDhFTEuA
+      9s3tBO1PeKoRXsZo2E/R/ZpVVXRJxFVcjH0NR4S9vJM7AElEstiwSRacLhculwtvoJQNW/ZR
+      6/32rwqCROXG13hj30ZqS31Y4qMc7R5De8jq6MnR01wJualr6WTbjh3s2NJCqTtffE9y+GjZ
+      9iqvbN9AZcCDuHSVry7PP/793ovbA0vL3FfrkoxggJJKsYarpL5MApCxWBWSqRS5m4WDrS4C
+      viLsokBxbTOtra20NDdSUWS/X4DWXZhmlHDYwOotob5lIzvaygmH4ys1ye7B4cC6sEj4Dm0o
+      8QhmsIbKIhc2q0g6EiGeyWJioqpR4gkBR6CcpvYt7Gr1MDFzn2xLdgeWpUUij1rHq2wzTclj
+      HLu2QCqTZKH/Mr0zMTQTsHko89sIjVxmeD6JkgkxdOkiYw9bDPol4fmeAgkikiTfCn4XBAnL
+      XZUfRGSLtNKXJcoba7nx+VF+87NBXCZ0/vDP2dDSRmjhMD/7p17KShyEp6MENh7kzVeCIEhY
+      JOG2GAQBWZLyXpSmwpWP/x/61ABlfpPFRY32197BIovooogk37ZLcrWzuey/88//bRS/t4TO
+      HTvoaN/1/7d3589RnPkdx9999/TMSKNrdAuBQIAQQhawxoCNIYB3FzauIlXrqmxls8kmP6RS
+      qVQl/0tSqfJWOfbG2c1WyruJvbsEG4zBYE4hTnFIIARIo3tGc/Uc3flBXEJggwRITD+vnyhm
+      NDPq0aefp59+vs+D/osP+MX1OjQ7ia9IA3UJkgSZ2ABffbKfAbWUMjNF/4DK9r9YMuPX14It
+      tJR+yEfv91AcqGDNxtdpbZRQNO3+mUtWVBT5QWG7JMmoyt1joofZvHsrxw7+ng8O5qldvYLK
+      kDVVXyDrVC3vYD2dfP27D/hcqaCltYmaodv3DgaKpt2v9ShUhTcb1MmRTqVxVBPLeJDvvJ0i
+      lXHQLQtdecov1XXIZlKks1O7qOiq8sSGw3UcsnaKnKRhGPpU0YqTJZWwkXQTw1CnN7dODtu2
+      yeRlTMtAleXHvrbr5MnYafKSjmFoPO1Hn5IlnQLd1JAlF8ceZP9He7F2v8fGKoNcLo/ryqiq
+      AjhM9J/m0KFB2vbspvFbLnVc12Xo9NmCmAqxsFuA2ZBVTH9gxn8rho/Asy4cKslohh/tKX5O
+      kmV0n3/aep+SrGEFn1DtLKsYPvU71zKVZAXD9xR7hD1WjKunrpLx6Ugy5GN3iJSvYGfp1D2A
+      2PBNbt4YJ2+oyOSJRvpQm9ZR+RTX+VpxEbV7ds3yc82ffD4/VbEoi4IYD0hzs+s0PcNJ8oDs
+      K2NZywpqQz5kySE5foee7h6Gkjlcx8Vf1czqlQ0EvuO0WEj1ACIAwjMrpAAU0CiQIDy7wrsG
+      EF4K13VJpVLz9v6mOX21i9kSAXiJppaNkVFeULH6y5RIJDh37ty8vf/mzZvR9blvMVI4AXAy
+      TAwPEhmNM2MGu1lMfXWYoG9+97VJD1ygR26mtbpwF5p61RTONYDr4uSyZGwb27a5ceIzum5P
+      /dvO5MgvgEv91O0uLgzObsOQdOQy53sHSL7wjW+yDF+7Ru+tIV781ibzr3BaAFknVNVIUdjB
+      BZzuT8jWtdK6lLt3lF/trGejt+kbdaitrsZ6oQ1ZntjAIJEil8q68ILfc22uCicAkoSsKMjK
+      VLW/IoGsaGgP/bHkx3vZ9/u9XBhMopglLP/e22xe00hAc5kcv0nv5THSieuc7uxmzAnxxp/9
+      jK1LA8j2MGevRJCj1znyzTmGKaV903Y2r1tCkSbjZkc5ve8PHLsUIa2YVK3cwI5NbVT41RkX
+      arlkhGOf/Q9Hz/WTMht4e9dO1jZVoEku9kQ/J7/8ghNXhsn4K9m08095Y1mA8f5ujn/VxcVU
+      D9H+S1iWRWP7W6ypzNJ78jD7T11lMguVyzbw5pb1NAQVRrpPcct16Tn0FZeHs4Rb3mD7W9+j
+      odRAwiF2+yIH9x3g0lAKf7iVbbu2sKJEYeDyUQ52nidh+OnvOYfPKKd961s0FOj+GYUTgKeQ
+      TmZZ/v2/YkeZAfF+9v/uOGdK/LzRVEpyvIcTh27R8u4P+fnWPSip8/z63w5w+59/RH02Ru+Z
+      sxjLN/KX/7QLKXabr/Yf5thZjS0di9DsFMGWH/C375ShupNc/vy37Osq48cbFqE9sjThzXPn
+      WfOjPfzDLoOxs/vYe6WHpqpSSuQxTh84wMSid/i7d2vR4tf47Je/4kvzr9lS3czadbexx8Os
+      a20m5JPQDJ2Ryyc4Fw3wg5/+PbUBh9GBm0Qn0xD0E+vv5HB0JT/52T+yR05y9esvOHqsC2vL
+      OoozPXyx9xR1O3/O7nqTRO/X/PK//oj1N3uoXfYa6wcdhoNhVrUsxpIUzAK+ZHm1+wXPyF/b
+      TLUWZ7CvlxuRDJaRZjKVwXEBtYhFK9fSvjyMocgoVhVhK/NgqnBFI22NFRiyjB6qZuWSWtzo
+      HaI2SP5amipVxgf6uN43hBYwGIsmedw9xiWv/wmttX4UVCoqwpiWgeO6pCevc2uinrXttZgy
+      KEVL2bathssnr+NoJpZloJsWgUCQYCCAqUkgqyjZFCMjY0zaMqW1y2iquTdtIkhz+3JCmoKk
+      BlnW2oyaSxCdTBHvPclw3RY66v3IKASXbGRHwy2OX8ugGT4sw8Q0fQSCQYIBi0LeO8NDLUCe
+      kUtH6RzSKfG75PMQTdrMruhJxTAgl0+RyUI2dpFDXaMESyzcqRcm/4w32PPJGOniSkIPtRh6
+      dS3Fh8dJAjPXuFUoXbSMxcluhvu6OdmThkANq9paqPTPfLZkmBh2hnQuRzw6TnE4/NCXr1JT
+      V8a+8Tgwcx5VIfNQAIbpPHKH0M7ttIQDqBLcSt6hZ1ZHIEMq5SBLFroGd44cJVr+fdatrMCn
+      SnAzzpnrz7Yss+zzYyYSpIF7EwzcRJykrxgDHlu0ovjDrOoIkYxFGRkapK+vl9NdRWzbuGjG
+      c/OpBGlNxdRU/P4giXgceDDJLhGfxLIKuK/zBAXcuD0qzeSYQllNCZaho+ajDA7HSD/zGiou
+      mYkI125FMCoaCBmQio/jK62m2DLQlTyRwSHs9LONVxqBRsr0i5zrncQBcFJcOtJFSetSTMDQ
+      TSYmJrCzmbs1uzmS8RjJFFihChqWrmBJjUVybHLmfZD8JNcu3UDxl1JaZOFvasF34TBXJ6cq
+      bZxUD4dO+2hrtgAV3UgTm4yTsRfA2PELVrAtgB4oeWS4sJ433/6GD//l36kpU0jmfJQZPkJ+
+      FQkJRTXwWfpDc/IVfEH/gwN0p5OPz5+lps5kYiBN/YYdbGutRpOgadObHPr4X/moqoRMyqGu
+      QidYZM0YAZKNAP6HNt5DMfCbEoosofvDdGx8jQOff8yH3xQjTQziLH2HrUpqbQAABFJJREFU
+      99qCSIBWv5r2y5/yyW+uUe6XCK3ZxXqzh8/3nyBmlhCQUkykQ2zZs/JuCxLj9Cfv01fZiJKI
+      4FS2s3PbakpNGfQ2trwxyt7/eJ/jIYvYUIqGbbtpD8qARG1LM1f+cID//tUlLBTa3n2P1tAL
+      +JIWAM/NBs3ZSey8jG6aT39xF+/ht4cjrG9fSSioo+o+jId/2HVx8hlStoNmGOjqbBtWl3w2
+      g53JgmLgMx4dRnXIptNkUPGZ+lTz7eRIp23yroLpN+9fK/Tu+zXXFm9lS42fvKxh3nv+/bdy
+      yGUz2Jk8imFiqMr07VLvvq6rmvj06d0513UZGRl5JadCPDobtGBbgCdRDWv2v7Ss4/c/pjhF
+      kpBVA/+cj6aEohlYT6zAkdFMa/qGgrKKaT3pjaeKdB47Z0ySUXUT9Ul/Q9/6uqDrOnV1dU98
+      /EWT5efTe/dcAGbFKGdNi59QcO6Tr16W8pVr0YKzrST7brqu09zc/MJe/2XxXBdImLt7U6Gf
+      11n4ZXp0jzDRAgizIkkShvHqzRTKZrPIsoyiiA0yhDl6HgUp8+HhFuDVa8ME4TkSARA8TXSB
+      hFl5HuWI80FVp99bEaNAgqeJLpDgaSIAgqeJAAieJgIgeJoYBRLmzrG51fUl/3ekm7S/nrWb
+      36KjqRxtvu+T5RP0dX7NFa2DHWvKpz2UHenmfz/9QgRAmCM3x+0Tn/JpXxm73/spavQ6R0/t
+      x3G38/rSUuZjETw3bzN6/Qz7D3YyNNpPtn05O3gQACd6nt/853Eadv+56AIJc+MmbnDqhp9N
+      m16jpqyEqiWr6FhcTvRWL2OZ+Rlhz8ZGuTmSYfUPf8KPNzehTttVJMeN4yeRXn+HzYtLRAsg
+      zE12bBS7rITygHX3bG9QHg7ixNMkUw4Yz1Yb/TzoJTV0bJjaSnf0xqOPRrkTCbG0bar4X7QA
+      wpxkMjY+07hfYQXgM324yORyC3H/yTRJ/BSpU8EUARDmTJbkabtuPjzbckGSZe7t9iYCIMyJ
+      oqjEE0ly2Qdn+1QqSe7uvPuFR0VLxRjPTa2dsRA/ofAKMcsr0SdGicTiOK6L66SJRCZQFR+B
+      b6kpnj+lLGqIcvXaBDlX3AcQ5kgK1tHRcJEjZ87iyy5GSw1yccCmomUxIXM+ukEumcQEkYEI
+      iRzEBmIk0jfo7k6iWcVUVlXT+FoH33x2gpNlOTEbVHgOcmNcOHKCm1kTw7ExwstZ07qIwMsf
+      AAIc4qP9XOw8z7ANbi5DxlUxNBmrvJ5VrW2E/Q6x3mN8eXFSBEB4Xhyydg5XllE1dcH3rV3X
+      xclnRQAEb1voQRWEF0oEQPA0EQDB00QABE8TARA8TQRA8DQRAMHTRAAETxMBEDxNBEDwNBEA
+      wdNEAARPEwEQPE0EQPA0EQDB00QABE8TARA8TQRA8DQRAMHTRAAETxMBEDxNBEDwNBEAwdNE
+      AARPEwEQPE0EQPA0EQDB00QABE/7fzklt8VmB+U0AAAAAElFTkSuQmCC
+    </thumbnail>
+  </thumbnails>
+</workbook>

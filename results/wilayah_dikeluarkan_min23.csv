@@ -1,0 +1,59 @@
+shapeID,shapeName,total_A,total_B,alasan
+22746128B64737377738458,Kota Metro,0,0,total_hotspot_A < 23
+22746128B82825120895999,Kota Sukabumi,0,0,total_hotspot_A < 23
+22746128B4646422714630,Tabanan,0,0,total_hotspot_A < 23
+22746128B86942252851890,Wadung Kedungombo,0,0,total_hotspot_A < 23
+22746128B15123001204790,Kota Blitar,0,0,total_hotspot_A < 23
+22746128B15758871990616,Danau,0,0,total_hotspot_A < 23
+22746128B44616450347238,Gianyar,0,2,total_hotspot_A < 23
+22746128B63742079715926,Kepulauan Seribu,0,0,total_hotspot_A < 23
+22746128B58041142516585,Danau Toba,0,0,total_hotspot_A < 23
+22746128B63896883204987,Kota Bogor,0,0,total_hotspot_A < 23
+22746128B99456803569608,Kota Salatiga,1,1,total_hotspot_A < 23
+22746128B76055711701199,Waduk Cirata,1,1,total_hotspot_A < 23
+22746128B9761158776103,Kota Yogyakarta,1,1,total_hotspot_A < 23
+22746128B69994664325988,Hutan,1,1,total_hotspot_A < 23
+22746128B73481124779947,Kota Depok,1,1,total_hotspot_A < 23
+22746128B73598541988454,Supiori,1,1,total_hotspot_A < 23
+22746128B94413576870843,Kota Pariaman,2,2,total_hotspot_A < 23
+22746128B57000549481658,Kota Tasikmalaya,2,4,total_hotspot_A < 23
+22746128B75816793285642,Kota Payakumbuh,2,2,total_hotspot_A < 23
+22746128B98453198956040,Kota Pekalongan,2,2,total_hotspot_A < 23
+22746128B66141272433758,Kota Magelang,3,3,total_hotspot_A < 23
+22746128B12322141134935,Kota Bukittinggi,3,3,total_hotspot_A < 23
+22746128B78398648082643,Kota Sabang,3,3,total_hotspot_A < 23
+22746128B89164850776530,Kota Denpasar,4,5,total_hotspot_A < 23
+22746128B86769429493629,Kota Pasuruan,4,5,total_hotspot_A < 23
+22746128B80288264799633,Kota Cirebon,5,5,total_hotspot_A < 23
+22746128B93686700937380,Kota Jakarta Selatan,5,5,total_hotspot_A < 23
+22746128B21128962092426,Kota Jakarta Pusat,5,5,total_hotspot_A < 23
+22746128B85080883644541,Kota Tegal,6,6,total_hotspot_A < 23
+22746128B33460906687482,Kota Surakarta,6,6,total_hotspot_A < 23
+22746128B23007358779926,Nias Barat,6,6,total_hotspot_A < 23
+22746128B34810169298981,Kota Mataram,6,6,total_hotspot_A < 23
+22746128B38845978082923,Kota Serang,7,7,total_hotspot_A < 23
+22746128B30166819315055,Kota Madiun,8,8,total_hotspot_A < 23
+22746128B53956788697299,Kota Mojokerto,10,10,total_hotspot_A < 23
+22746128B12552284418793,Kota Tomohon,10,10,total_hotspot_A < 23
+22746128B9724218643478,Kota Malang,11,11,total_hotspot_A < 23
+22746128B56363132836699,Kota Banda Aceh,11,11,total_hotspot_A < 23
+22746128B64728543729693,Kota Banjar,12,12,total_hotspot_A < 23
+22746128B73073409478343,Klungkung,12,12,total_hotspot_A < 23
+22746128B48742890195125,Kota Probolinggo,13,13,total_hotspot_A < 23
+22746128B30699524960223,Kota Solok,13,13,total_hotspot_A < 23
+22746128B76986430159502,Badung,13,13,total_hotspot_A < 23
+22746128B45484540858108,Kepulauan Talaud,14,16,total_hotspot_A < 23
+22746128B7624163664321,Nduga,15,35,total_hotspot_A < 23
+22746128B34977061629525,Kota Padang Panjang,16,16,total_hotspot_A < 23
+22746128B51921656212420,Deiyai,17,37,total_hotspot_A < 23
+22746128B85592790675198,Jembrana,17,17,total_hotspot_A < 23
+22746128B47009036461165,Kota Sibolga,18,18,total_hotspot_A < 23
+22746128B66679629138785,Kota Binjai,18,18,total_hotspot_A < 23
+22746128B37926964335633,Pamekasan,19,20,total_hotspot_A < 23
+22746128B17121530580660,Ciamis,19,19,total_hotspot_A < 23
+22746128B54763839112631,Kota Bekasi,19,19,total_hotspot_A < 23
+22746128B47515282892276,Teluk Wondama,20,76,total_hotspot_A < 23
+22746128B13880384963573,Kota Bandar Lampung,21,21,total_hotspot_A < 23
+22746128B12986554349068,Waropen,21,22,total_hotspot_A < 23
+22746128B28296608330436,Kepulauan Sangihe,22,40,total_hotspot_A < 23
+22746128B99951880476592,Kepulauan Anambas,22,22,total_hotspot_A < 23

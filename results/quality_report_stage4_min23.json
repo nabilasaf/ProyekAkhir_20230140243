@@ -1,0 +1,180 @@
+{
+  "MIN_TOTAL": 23,
+  "wilayah_masuk": 461,
+  "wilayah_dikeluarkan": 58,
+  "seed": 42,
+  "A": {
+    "tabel_k": [
+      {
+        "k": 2,
+        "wssse": 1595.539230640202,
+        "silhouette": 0.43811371817825184,
+        "davies_bouldin": 1.3550029472436116
+      },
+      {
+        "k": 3,
+        "wssse": 1351.168491925137,
+        "silhouette": 0.3574001845342806,
+        "davies_bouldin": 1.4564016790332843
+      },
+      {
+        "k": 4,
+        "wssse": 1132.1928181713802,
+        "silhouette": 0.3870123449838001,
+        "davies_bouldin": 1.2661832224174847
+      },
+      {
+        "k": 5,
+        "wssse": 993.976197579998,
+        "silhouette": 0.38953429968842607,
+        "davies_bouldin": 1.2243008148095298
+      },
+      {
+        "k": 6,
+        "wssse": 908.5130159639335,
+        "silhouette": 0.3699250232541199,
+        "davies_bouldin": 1.1667706047412072
+      },
+      {
+        "k": 7,
+        "wssse": 829.7778126965037,
+        "silhouette": 0.3215020104291296,
+        "davies_bouldin": 1.292848400950572
+      },
+      {
+        "k": 8,
+        "wssse": 778.7571919424247,
+        "silhouette": 0.3325239966060535,
+        "davies_bouldin": 1.2301028096753934
+      },
+      {
+        "k": 9,
+        "wssse": 728.0606500609781,
+        "silhouette": 0.3131220046881163,
+        "davies_bouldin": 1.2539431620135801
+      },
+      {
+        "k": 10,
+        "wssse": 669.1835859752902,
+        "silhouette": 0.32333973373031655,
+        "davies_bouldin": 1.2050110500984446
+      }
+    ],
+    "k_terbaik_silhouette": 2,
+    "profil_klaster_k_terbaik": [
+      {
+        "prediction": 0,
+        "n_wilayah": 191,
+        "hotspot_per_bulan": 25.325,
+        "cv_antartahun": 1.053,
+        "proporsi_malam": 0.189,
+        "rata2_frp": 31.944,
+        "rata2_confidence": 64.529,
+        "total_hotspot": 7316.869
+      },
+      {
+        "prediction": 1,
+        "n_wilayah": 270,
+        "hotspot_per_bulan": 1.822,
+        "cv_antartahun": 0.918,
+        "proporsi_malam": 0.078,
+        "rata2_frp": 17.044,
+        "rata2_confidence": 54.119,
+        "total_hotspot": 526.552
+      }
+    ]
+  },
+  "B": {
+    "tabel_k": [
+      {
+        "k": 2,
+        "wssse": 1586.8963474361888,
+        "silhouette": 0.4357042747792521,
+        "davies_bouldin": 1.3611328485647158
+      },
+      {
+        "k": 3,
+        "wssse": 1339.5861227358503,
+        "silhouette": 0.3753034948004869,
+        "davies_bouldin": 1.4046531258527974
+      },
+      {
+        "k": 4,
+        "wssse": 1125.0318345521312,
+        "silhouette": 0.3881887228817288,
+        "davies_bouldin": 1.285199918741728
+      },
+      {
+        "k": 5,
+        "wssse": 1013.3195348824554,
+        "silhouette": 0.3882060116157192,
+        "davies_bouldin": 1.2280119483502911
+      },
+      {
+        "k": 6,
+        "wssse": 891.8603208212139,
+        "silhouette": 0.36922008978249615,
+        "davies_bouldin": 1.2184970403815736
+      },
+      {
+        "k": 7,
+        "wssse": 820.5932342782647,
+        "silhouette": 0.3433683968602411,
+        "davies_bouldin": 1.2626917296166429
+      },
+      {
+        "k": 8,
+        "wssse": 777.0299004046082,
+        "silhouette": 0.3382687180581378,
+        "davies_bouldin": 1.224596275594952
+      },
+      {
+        "k": 9,
+        "wssse": 709.9857502348282,
+        "silhouette": 0.3358375870924326,
+        "davies_bouldin": 1.2327913171307914
+      },
+      {
+        "k": 10,
+        "wssse": 695.3253743603,
+        "silhouette": 0.32046602102180544,
+        "davies_bouldin": 1.3207412516666026
+      }
+    ],
+    "k_terbaik_silhouette": 2,
+    "profil_klaster_k_terbaik": [
+      {
+        "prediction": 0,
+        "n_wilayah": 207,
+        "hotspot_per_bulan": 24.923,
+        "cv_antartahun": 1.069,
+        "proporsi_malam": 0.203,
+        "rata2_frp": 30.955,
+        "rata2_confidence": 64.463,
+        "total_hotspot": 7259.768
+      },
+      {
+        "prediction": 1,
+        "n_wilayah": 254,
+        "hotspot_per_bulan": 1.881,
+        "cv_antartahun": 0.896,
+        "proporsi_malam": 0.076,
+        "rata2_frp": 16.684,
+        "rata2_confidence": 53.894,
+        "total_hotspot": 548.031
+      }
+    ]
+  },
+  "ARI_A_vs_B_per_k": {
+    "2": 0.8657,
+    "3": 0.8676,
+    "4": 0.8864,
+    "5": 0.5419,
+    "6": 0.7284,
+    "7": 0.645,
+    "8": 0.9072,
+    "9": 0.3473,
+    "10": 0.4095
+  },
+  "ARI_A_vs_B_pada_k_terbaik_masing2": 0.8657
+}

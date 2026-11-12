@@ -1,0 +1,87 @@
+{
+  "baris_arsip": 1544081,
+  "baris_nrt": 102494,
+  "baris_gabungan": 1646575,
+  "null_per_kolom": {
+    "latitude": 0,
+    "longitude": 0,
+    "brightness": 0,
+    "scan": 0,
+    "track": 0,
+    "acq_date": 0,
+    "acq_time": 0,
+    "satellite": 0,
+    "instrument": 0,
+    "confidence": 0,
+    "version": 0,
+    "bright_t31": 0,
+    "frp": 0,
+    "daynight": 0,
+    "type": 102494,
+    "source": 0
+  },
+  "kelompok_duplikat": 0,
+  "baris_berlebih_duplikat": 0,
+  "max_tanggal_arsip": "2026-07-31",
+  "min_tanggal_nrt": "2026-08-01",
+  "tumpang_tindih_tanggal": false,
+  "rentang": {
+    "lat_min": "-11.0038",
+    "lat_max": "5.8331",
+    "lon_min": "95.068",
+    "lon_max": "140.9773",
+    "conf_min": "0",
+    "conf_max": "100",
+    "frp_min": "0.0",
+    "frp_max": "6647.6",
+    "tgl_min": "2002-07-04",
+    "tgl_max": "2026-10-11"
+  },
+  "frp_negatif": 0,
+  "confidence_di_luar_0_100": 0,
+  "sebaran_daynight": {
+    "D": 1263083,
+    "N": 383492
+  },
+  "sebaran_satellite": {
+    "Terra": 540072,
+    "Aqua": 1106503
+  },
+  "sebaran_instrument": {
+    "MODIS": 1646575
+  },
+  "sebaran_type": {
+    "1": 18902,
+    "3": 15173,
+    "2": 103594,
+    "0": 1406412,
+    "None": 102494
+  },
+  "hotspot_per_tahun": {
+    "2002": 117952,
+    "2003": 63713,
+    "2004": 108447,
+    "2005": 75847,
+    "2006": 156290,
+    "2007": 44119,
+    "2008": 42208,
+    "2009": 103640,
+    "2010": 21312,
+    "2011": 63285,
+    "2012": 72139,
+    "2013": 54466,
+    "2014": 116361,
+    "2015": 179921,
+    "2016": 24866,
+    "2017": 18454,
+    "2018": 39276,
+    "2019": 91936,
+    "2020": 16980,
+    "2021": 14717,
+    "2022": 11745,
+    "2023": 53128,
+    "2024": 23542,
+    "2025": 17847,
+    "2026": 114384
+  }
+}

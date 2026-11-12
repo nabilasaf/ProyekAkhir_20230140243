@@ -1,0 +1,33 @@
+{
+  "baris_masuk": 1646575,
+  "baris_keluar": 1646575,
+  "koordinat_unik": 1642075,
+  "koordinat_unik_tanpa_wilayah": 4002,
+  "koordinat_cocok_lebih_dari_satu_poligon": 0,
+  "baris_tanpa_wilayah": 4011,
+  "wilayah_dengan_hotspot": 510,
+  "total_wilayah_geojson": 519,
+  "tanpa_wilayah_per_source": {
+    "NRT": 89,
+    "ARSIP": 3922
+  },
+  "tanpa_wilayah_per_type": {
+    "None": 89,
+    "3": 2940,
+    "0": 956,
+    "2": 26
+  },
+  "dengan_wilayah_per_type": {
+    "None": 102405,
+    "1": 18902,
+    "3": 12233,
+    "2": 103568,
+    "0": 1405456
+  },
+  "hotspot_per_wilayah": {
+    "min": 1,
+    "median": 577.0,
+    "maks": 73154
+  },
+  "wilayah_hotspot_kurang_dari_10": 25
+}

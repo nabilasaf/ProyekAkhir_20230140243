@@ -1,0 +1,30 @@
+{
+  "MIN_TOTAL": 23,
+  "n_wilayah": 461,
+  "dbscan": {
+    "eps": 0.9,
+    "min_samples": 5,
+    "A": {
+      "n_klaster": 2,
+      "n_noise": 79,
+      "noise_share": 0.1714,
+      "k_klaster_noise_hybrid": 2
+    },
+    "B": {
+      "n_klaster": 2,
+      "n_noise": 82,
+      "noise_share": 0.1779,
+      "k_klaster_noise_hybrid": 2
+    }
+  },
+  "ARI_A_vs_B_per_metode": {
+    "DBSCAN": 0.7984,
+    "Hybrid": 0.8075,
+    "KMeans_k4": 0.8864,
+    "Ensemble_k4": 0.7979,
+    "KMeans_k5": 0.5419,
+    "Ensemble_k5": 0.7986,
+    "KMeans_k6": 0.7284,
+    "Ensemble_k6": 0.8054
+  }
+}

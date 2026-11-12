@@ -1,0 +1,1025 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20263.26.1022.1645                               -->
+<workbook _.fcp.WorkbookFingerprinting.true...author-id='bd89b70fd30fe7193dee8bfd82dff5a59bf63960a1f29ca3891216c02f3fd420' _.fcp.WorkbookFingerprinting.true...creator-author-id='bd89b70fd30fe7193dee8bfd82dff5a59bf63960a1f29ca3891216c02f3fd420' _.fcp.WorkbookFingerprinting.true...creator-license-type='public' _.fcp.WorkbookFingerprinting.true...creator-machine-id='bd89b70fd30fe7193dee8bfd82dff5a59bf63960a1f29ca3891216c02f3fd420' _.fcp.WorkbookFingerprinting.true...license-type='public' _.fcp.WorkbookFingerprinting.true...machine-id='bd89b70fd30fe7193dee8bfd82dff5a59bf63960a1f29ca3891216c02f3fd420' original-version='18.1' source-build='2026.3.0 (20263.26.1022.1645)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SpatialFileLayer />
+    <VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <_.fcp.WorkbookFingerprinting.true...WorkbookFingerprinting />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='adm2_clusters_min23' inline='true' name='federated.0z2k1c719lldme1b5ggtk1p1setl' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='adm2_clusters_min23' name='ogrdirect.1i6cby410fnjpe1eo1az90bvdrea'>
+            <connection class='ogrdirect' directory='D:/SEMESTER_7/BIG_DATA/Project_Akhir/results/dashboard' filename='adm2_clusters_min23.geojson' password='' server='' tablename='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='ogrdirect.1i6cby410fnjpe1eo1az90bvdrea' name='adm2_clusters_min23.geojson' table='[adm2_clusters_min23.geojson]' type='table'>
+          <columns>
+            <column datatype='string' name='shapeID' ordinal='0' />
+            <column datatype='string' name='shapeName' ordinal='1' />
+            <column datatype='string' name='status' ordinal='2' />
+            <column datatype='string' name='label_peta_A' ordinal='3' />
+            <column datatype='string' name='label_peta_B' ordinal='4' />
+            <column datatype='string' name='kmeans_k4_nama_A' ordinal='5' />
+            <column datatype='string' name='kmeans_k4_nama_B' ordinal='6' />
+            <column datatype='string' name='kmeans_k5_nama_A' ordinal='7' />
+            <column datatype='string' name='kmeans_k5_nama_B' ordinal='8' />
+            <column datatype='string' name='dbscan_nama_A' ordinal='9' />
+            <column datatype='string' name='dbscan_nama_B' ordinal='10' />
+            <column datatype='string' name='hybrid_nama_A' ordinal='11' />
+            <column datatype='string' name='hybrid_nama_B' ordinal='12' />
+            <column datatype='string' name='ensemble_k4_nama_A' ordinal='13' />
+            <column datatype='string' name='ensemble_k4_nama_B' ordinal='14' />
+            <column datatype='integer' name='total_hotspot_A' ordinal='15' />
+            <column datatype='real' name='hotspot_per_bulan_A' ordinal='16' />
+            <column datatype='real' name='cv_antartahun_A' ordinal='17' />
+            <column datatype='real' name='proporsi_malam_A' ordinal='18' />
+            <column datatype='real' name='rata2_frp_A' ordinal='19' />
+            <column datatype='real' name='rata2_confidence_A' ordinal='20' />
+            <column datatype='real' name='share_nonveg' ordinal='21' />
+            <column datatype='spatial' name='Geometry' ordinal='22' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>shapeID</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shapeID]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>shapeID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>shapeName</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[shapeName]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>shapeName</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>status</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[status]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>status</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>label_peta_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[label_peta_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>label_peta_A</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>label_peta_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[label_peta_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>label_peta_B</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kmeans_k4_nama_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kmeans_k4_nama_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>kmeans_k4_nama_A</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kmeans_k4_nama_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kmeans_k4_nama_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>kmeans_k4_nama_B</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kmeans_k5_nama_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kmeans_k5_nama_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>kmeans_k5_nama_A</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>kmeans_k5_nama_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[kmeans_k5_nama_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>kmeans_k5_nama_B</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbscan_nama_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dbscan_nama_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>dbscan_nama_A</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>dbscan_nama_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[dbscan_nama_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>dbscan_nama_B</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hybrid_nama_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hybrid_nama_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>hybrid_nama_A</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hybrid_nama_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[hybrid_nama_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>hybrid_nama_B</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ensemble_k4_nama_A</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ensemble_k4_nama_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>ensemble_k4_nama_A</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ensemble_k4_nama_B</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[ensemble_k4_nama_B]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>ensemble_k4_nama_B</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total_hotspot_A</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[total_hotspot_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>total_hotspot_A</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>hotspot_per_bulan_A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[hotspot_per_bulan_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>hotspot_per_bulan_A</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cv_antartahun_A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[cv_antartahun_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>cv_antartahun_A</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>proporsi_malam_A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[proporsi_malam_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>proporsi_malam_A</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rata2_frp_A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rata2_frp_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>rata2_frp_A</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rata2_confidence_A</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[rata2_confidence_A]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>rata2_confidence_A</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>share_nonveg</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[share_nonveg]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>share_nonveg</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Geometry</remote-name>
+            <remote-type>8</remote-type>
+            <local-name>[Geometry]</local-name>
+            <parent-name>[adm2_clusters_min23.geojson]</parent-name>
+            <remote-alias>Geometry</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>spatial</local-type>
+            <aggregation>Collect</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='adm2_clusters_min23.geojson' datatype='table' name='[__tableau_internal_object_id__].[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]' role='measure' type='quantitative' />
+      <column caption='cv antartahun A' datatype='real' name='[cv_antartahun_A]' role='measure' type='quantitative' />
+      <column caption='dbscan nama A' datatype='string' name='[dbscan_nama_A]' role='dimension' type='nominal' />
+      <column caption='dbscan nama B' datatype='string' name='[dbscan_nama_B]' role='dimension' type='nominal' />
+      <column caption='ensemble k4 nama A' datatype='string' name='[ensemble_k4_nama_A]' role='dimension' type='nominal' />
+      <column caption='ensemble k4 nama B' datatype='string' name='[ensemble_k4_nama_B]' role='dimension' type='nominal' />
+      <column caption='hotspot per bulan A' datatype='real' name='[hotspot_per_bulan_A]' role='measure' type='quantitative' />
+      <column caption='hybrid nama A' datatype='string' name='[hybrid_nama_A]' role='dimension' type='nominal' />
+      <column caption='hybrid nama B' datatype='string' name='[hybrid_nama_B]' role='dimension' type='nominal' />
+      <column caption='kmeans k4 nama A' datatype='string' name='[kmeans_k4_nama_A]' role='dimension' type='nominal' />
+      <column caption='kmeans k4 nama B' datatype='string' name='[kmeans_k4_nama_B]' role='dimension' type='nominal' />
+      <column caption='kmeans k5 nama A' datatype='string' name='[kmeans_k5_nama_A]' role='dimension' type='nominal' />
+      <column caption='kmeans k5 nama B' datatype='string' name='[kmeans_k5_nama_B]' role='dimension' type='nominal' />
+      <column caption='label peta A' datatype='string' name='[label_peta_A]' role='dimension' type='nominal' />
+      <column caption='label peta B' datatype='string' name='[label_peta_B]' role='dimension' type='nominal' />
+      <column caption='proporsi malam A' datatype='real' name='[proporsi_malam_A]' role='measure' type='quantitative' />
+      <column caption='rata2 confidence A' datatype='real' name='[rata2_confidence_A]' role='measure' type='quantitative' />
+      <column caption='rata2 frp A' datatype='real' name='[rata2_frp_A]' role='measure' type='quantitative' />
+      <column caption='Shape ID' datatype='string' name='[shapeID]' role='dimension' type='nominal' />
+      <column caption='Shape Name' datatype='string' name='[shapeName]' role='dimension' type='nominal' />
+      <column caption='Share Nonveg' datatype='real' name='[share_nonveg]' role='measure' type='quantitative' />
+      <column caption='Status' datatype='string' name='[status]' role='dimension' type='nominal' />
+      <column caption='total hotspot A' datatype='integer' name='[total_hotspot_A]' role='measure' type='quantitative' />
+      <column-instance column='[label_peta_A]' derivation='None' name='[none:label_peta_A:nk]' pivot='key' type='nominal' />
+      <extract count='-1' enabled='true' object-id='' units='records' user-specific='false'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/LENOVO/AppData/Local/Temp/TableauTemp/#TableauTemp_0wnddmh1knb4ba18wbf781hemur8.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='11/05/2026 09:49:02 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>shapeID</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[shapeID]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>shapeID</remote-alias>
+              <ordinal>0</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>519</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>shapeName</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[shapeName]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>shapeName</remote-alias>
+              <ordinal>1</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>519</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>status</remote-alias>
+              <ordinal>2</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>label_peta_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[label_peta_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>label_peta_A</remote-alias>
+              <ordinal>3</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>label_peta_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[label_peta_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>label_peta_B</remote-alias>
+              <ordinal>4</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kmeans_k4_nama_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[kmeans_k4_nama_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kmeans_k4_nama_A</remote-alias>
+              <ordinal>5</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kmeans_k4_nama_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[kmeans_k4_nama_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kmeans_k4_nama_B</remote-alias>
+              <ordinal>6</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kmeans_k5_nama_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[kmeans_k5_nama_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kmeans_k5_nama_A</remote-alias>
+              <ordinal>7</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>kmeans_k5_nama_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[kmeans_k5_nama_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>kmeans_k5_nama_B</remote-alias>
+              <ordinal>8</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dbscan_nama_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dbscan_nama_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dbscan_nama_A</remote-alias>
+              <ordinal>9</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>dbscan_nama_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[dbscan_nama_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>dbscan_nama_B</remote-alias>
+              <ordinal>10</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hybrid_nama_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[hybrid_nama_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hybrid_nama_A</remote-alias>
+              <ordinal>11</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hybrid_nama_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[hybrid_nama_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hybrid_nama_B</remote-alias>
+              <ordinal>12</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ensemble_k4_nama_A</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ensemble_k4_nama_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ensemble_k4_nama_A</remote-alias>
+              <ordinal>13</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ensemble_k4_nama_B</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[ensemble_k4_nama_B]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ensemble_k4_nama_B</remote-alias>
+              <ordinal>14</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='binary' />
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>total_hotspot_A</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[total_hotspot_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>total_hotspot_A</remote-alias>
+              <ordinal>15</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>429</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>hotspot_per_bulan_A</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[hotspot_per_bulan_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>hotspot_per_bulan_A</remote-alias>
+              <ordinal>16</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>429</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>cv_antartahun_A</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[cv_antartahun_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>cv_antartahun_A</remote-alias>
+              <ordinal>17</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>498</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>proporsi_malam_A</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[proporsi_malam_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>proporsi_malam_A</remote-alias>
+              <ordinal>18</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>430</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rata2_frp_A</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rata2_frp_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rata2_frp_A</remote-alias>
+              <ordinal>19</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>509</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>rata2_confidence_A</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[rata2_confidence_A]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>rata2_confidence_A</remote-alias>
+              <ordinal>20</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>505</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>share_nonveg</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[share_nonveg]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>share_nonveg</remote-alias>
+              <ordinal>21</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>390</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Geometry</remote-name>
+              <remote-type>128</remote-type>
+              <local-name>[Geometry]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Geometry</remote-alias>
+              <ordinal>22</ordinal>
+              <family>adm2_clusters_min23.geojson</family>
+              <local-type>spatial</local-type>
+              <aggregation>Collect</aggregation>
+              <approx-count>519</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:label_peta_A:nk]' type='palette'>
+            <map to='#67a9cf'>
+              <bucket>&quot;Intensitas rendah, tidak stabil&quot;</bucket>
+            </map>
+            <map to='#7b3294'>
+              <bucket>&quot;Dominan sumber non-vegetasi&quot;</bucket>
+            </map>
+            <map to='#b2182b'>
+              <bucket>&quot;Intensitas tinggi&quot;</bucket>
+            </map>
+            <map to='#bdbdbd'>
+              <bucket>&quot;Tanpa hotspot&quot;</bucket>
+            </map>
+            <map to='#e0e0e0'>
+              <bucket>&quot;<![CDATA[Hotspot terlalu sedikit (< 23)]]>&quot;</bucket>
+            </map>
+            <map to='#ef8a62'>
+              <bucket>&quot;Intensitas sedang, stabil&quot;</bucket>
+            </map>
+            <map to='#f2f2f2'>
+              <bucket>&quot;Bukan wilayah administratif&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='adm2_clusters_min23.geojson' id='adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF'>
+            <properties context=''>
+              <relation connection='ogrdirect.1i6cby410fnjpe1eo1az90bvdrea' name='adm2_clusters_min23.geojson' table='[adm2_clusters_min23.geojson]' type='table'>
+                <columns>
+                  <column datatype='string' name='shapeID' ordinal='0' />
+                  <column datatype='string' name='shapeName' ordinal='1' />
+                  <column datatype='string' name='status' ordinal='2' />
+                  <column datatype='string' name='label_peta_A' ordinal='3' />
+                  <column datatype='string' name='label_peta_B' ordinal='4' />
+                  <column datatype='string' name='kmeans_k4_nama_A' ordinal='5' />
+                  <column datatype='string' name='kmeans_k4_nama_B' ordinal='6' />
+                  <column datatype='string' name='kmeans_k5_nama_A' ordinal='7' />
+                  <column datatype='string' name='kmeans_k5_nama_B' ordinal='8' />
+                  <column datatype='string' name='dbscan_nama_A' ordinal='9' />
+                  <column datatype='string' name='dbscan_nama_B' ordinal='10' />
+                  <column datatype='string' name='hybrid_nama_A' ordinal='11' />
+                  <column datatype='string' name='hybrid_nama_B' ordinal='12' />
+                  <column datatype='string' name='ensemble_k4_nama_A' ordinal='13' />
+                  <column datatype='string' name='ensemble_k4_nama_B' ordinal='14' />
+                  <column datatype='integer' name='total_hotspot_A' ordinal='15' />
+                  <column datatype='real' name='hotspot_per_bulan_A' ordinal='16' />
+                  <column datatype='real' name='cv_antartahun_A' ordinal='17' />
+                  <column datatype='real' name='proporsi_malam_A' ordinal='18' />
+                  <column datatype='real' name='rata2_frp_A' ordinal='19' />
+                  <column datatype='real' name='rata2_confidence_A' ordinal='20' />
+                  <column datatype='real' name='share_nonveg' ordinal='21' />
+                  <column datatype='spatial' name='Geometry' ordinal='22' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_54CAB30A5BB2489C9909254E93CE19CC]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='label peta A' />
+        <param name='target' value='Sheet 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='adm2_clusters_min23' name='federated.0z2k1c719lldme1b5ggtk1p1setl' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0z2k1c719lldme1b5ggtk1p1setl'>
+            <column datatype='spatial' name='[Geometry]' role='measure' type='nominal' />
+            <column-instance column='[Geometry]' derivation='Collect' name='[clct:Geometry:nk]' pivot='key' type='nominal' />
+            <column caption='label peta A' datatype='string' name='[label_peta_A]' role='dimension' type='nominal' />
+            <column-instance column='[label_peta_A]' derivation='None' name='[none:label_peta_A:nk]' pivot='key' type='nominal' />
+            <column-instance column='[shapeName]' derivation='None' name='[none:shapeName:nk]' pivot='key' type='nominal' />
+            <column caption='Shape Name' datatype='string' name='[shapeName]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0z2k1c719lldme1b5ggtk1p1setl].[Longitude (generated)]' field-type='quantitative' max='15613594.876446377' min='13498052.940717803' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0z2k1c719lldme1b5ggtk1p1setl].[Latitude (generated)]' field-type='quantitative' max='2600638.1082400791' min='-1691765.8047053069' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]' />
+              <lod column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[clct:Geometry:nk]' />
+              <lod column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:shapeName:nk]' />
+              <geometry column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[clct:Geometry:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='219' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0z2k1c719lldme1b5ggtk1p1setl].[Latitude (generated)]</rows>
+        <cols>[federated.0z2k1c719lldme1b5ggtk1p1setl].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{C8057394-48D2-4C90-82AE-141D7832578A}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='adm2_clusters_min23' name='federated.0z2k1c719lldme1b5ggtk1p1setl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z2k1c719lldme1b5ggtk1p1setl'>
+            <column caption='adm2_clusters_min23.geojson' datatype='table' name='[__tableau_internal_object_id__].[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]' role='measure' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF:qk]' pivot='key' type='quantitative' />
+            <column caption='label peta A' datatype='string' name='[label_peta_A]' role='dimension' type='nominal' />
+            <column-instance column='[label_peta_A]' derivation='None' name='[none:label_peta_A:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]</rows>
+        <cols>[federated.0z2k1c719lldme1b5ggtk1p1setl].[__tableau_internal_object_id__].[cnt:adm2_clusters_min23.geojson_2F38979751C7426EA4C1054EB883D1AF:qk]</cols>
+      </table>
+      <simple-id uuid='{2172B713-18B0-4838-A2F1-60648792F962}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='adm2_clusters_min23' name='federated.0z2k1c719lldme1b5ggtk1p1setl' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0z2k1c719lldme1b5ggtk1p1setl'>
+            <column caption='cv antartahun A' datatype='real' name='[cv_antartahun_A]' role='measure' type='quantitative' />
+            <column caption='hotspot per bulan A' datatype='real' name='[hotspot_per_bulan_A]' role='measure' type='quantitative' />
+            <column caption='label peta A' datatype='string' name='[label_peta_A]' role='dimension' type='nominal' />
+            <column-instance column='[label_peta_A]' derivation='None' name='[none:label_peta_A:nk]' pivot='key' type='nominal' />
+            <column-instance column='[shapeName]' derivation='None' name='[none:shapeName:nk]' pivot='key' type='nominal' />
+            <column-instance column='[status]' derivation='None' name='[none:status:nk]' pivot='key' type='nominal' />
+            <column caption='Shape Name' datatype='string' name='[shapeName]' role='dimension' type='nominal' />
+            <column caption='Status' datatype='string' name='[status]' role='dimension' type='nominal' />
+            <column-instance column='[cv_antartahun_A]' derivation='Sum' name='[sum:cv_antartahun_A:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[hotspot_per_bulan_A]' derivation='Sum' name='[sum:hotspot_per_bulan_A:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:status:nk]'>
+            <groupfilter function='member' level='[none:status:nk]' member='&quot;Masuk clustering&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:status:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0z2k1c719lldme1b5ggtk1p1setl].[sum:hotspot_per_bulan_A:qk]' field-type='quantitative' scale='log' scope='cols' type='space' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]' />
+              <lod column='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:shapeName:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.0z2k1c719lldme1b5ggtk1p1setl].[sum:cv_antartahun_A:qk]</rows>
+        <cols>[federated.0z2k1c719lldme1b5ggtk1p1setl].[sum:hotspot_per_bulan_A:qk]</cols>
+      </table>
+      <simple-id uuid='{2E974932-A06C-47AE-9BE9-D56BB012C848}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='139'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{7B41D603-8A0A-4B30-A5A8-608289D6FB11}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{47DFFE8C-6B88-4D06-907E-382E8C1E5784}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0z2k1c719lldme1b5ggtk1p1setl].[none:label_peta_A:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F14336E5-53A7-4666-AC16-9C8B867902DF}' />
+    </window>
+  </windows>
+</workbook>

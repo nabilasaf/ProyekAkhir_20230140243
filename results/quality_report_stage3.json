@@ -1,0 +1,94 @@
+{
+  "A": {
+    "periode": "2002-07-04 s/d 2026-07-31",
+    "lama_periode_bulan": 288.92,
+    "baris_hotspot_dipakai": 1540159,
+    "jumlah_wilayah": 519,
+    "wilayah_tanpa_hotspot": 10,
+    "wilayah_dengan_total_kurang_dari": {
+      "1": 10,
+      "10": 34,
+      "23": 58,
+      "50": 94,
+      "100": 124,
+      "250": 183
+    },
+    "kuantil_total_hotspot": {
+      "0.0": 0.0,
+      "0.1": 19.0,
+      "0.25": 111.0,
+      "0.5": 531.0,
+      "0.75": 2332.0,
+      "0.9": 7926.0,
+      "1.0": 68052.0
+    },
+    "korelasi_pearson_inti": {
+      "hotspot_per_bulan ~ cv_antartahun": -0.0576,
+      "hotspot_per_bulan ~ proporsi_malam": 0.2494,
+      "hotspot_per_bulan ~ rata2_frp": 0.4718,
+      "hotspot_per_bulan ~ rata2_confidence": 0.2757,
+      "cv_antartahun ~ proporsi_malam": 0.2567,
+      "cv_antartahun ~ rata2_frp": -0.0994,
+      "cv_antartahun ~ rata2_confidence": -0.0515,
+      "proporsi_malam ~ rata2_frp": 0.2503,
+      "proporsi_malam ~ rata2_confidence": 0.2952,
+      "rata2_frp ~ rata2_confidence": 0.5343
+    },
+    "korelasi_pearson_profil": {
+      "hotspot_per_tahun ~ hotspot_per_bulan": 0.9987
+    }
+  },
+  "B": {
+    "periode": "2002-07-04 s/d 2026-10-11",
+    "lama_periode_bulan": 291.285,
+    "baris_hotspot_dipakai": 1642564,
+    "jumlah_wilayah": 519,
+    "wilayah_tanpa_hotspot": 9,
+    "wilayah_dengan_total_kurang_dari": {
+      "1": 9,
+      "10": 34,
+      "23": 54,
+      "50": 91,
+      "100": 123,
+      "250": 171
+    },
+    "kuantil_total_hotspot": {
+      "0.0": 0.0,
+      "0.1": 21.0,
+      "0.25": 116.0,
+      "0.5": 577.0,
+      "0.75": 2397.0,
+      "0.9": 8259.0,
+      "1.0": 73154.0
+    },
+    "korelasi_pearson_inti": {
+      "hotspot_per_bulan ~ cv_antartahun": -0.0521,
+      "hotspot_per_bulan ~ proporsi_malam": 0.2509,
+      "hotspot_per_bulan ~ rata2_frp": 0.4526,
+      "hotspot_per_bulan ~ rata2_confidence": 0.2713,
+      "cv_antartahun ~ proporsi_malam": 0.2765,
+      "cv_antartahun ~ rata2_frp": -0.095,
+      "cv_antartahun ~ rata2_confidence": -0.0533,
+      "proporsi_malam ~ rata2_frp": 0.2422,
+      "proporsi_malam ~ rata2_confidence": 0.3037,
+      "rata2_frp ~ rata2_confidence": 0.5363
+    },
+    "korelasi_pearson_profil": {
+      "hotspot_per_tahun ~ hotspot_per_bulan": 0.9953
+    }
+  },
+  "profil_bulanan_nasional_A_2003_2025": {
+    "1": 27401,
+    "2": 51894,
+    "3": 50461,
+    "4": 22063,
+    "5": 39143,
+    "6": 79667,
+    "7": 108656,
+    "8": 290394,
+    "9": 387483,
+    "10": 267582,
+    "11": 68031,
+    "12": 17764
+  }
+}
