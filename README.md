@@ -1,6 +1,6 @@
 # Klasterisasi Hotspot Kebakaran per Kabupaten/Kota (ADM2) Indonesia
 
-Proyek Akhir Analisis Big Data. Penulis: [isi: nama dan NIM]. Kelas: [isi].
+Proyek Akhir Analisis Big Data.
 
 ## Deskripsi singkat
 
