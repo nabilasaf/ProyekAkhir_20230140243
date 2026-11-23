@@ -14,7 +14,7 @@ Pertanyaan utama: tipe wilayah apa saja yang terbentuk dari intensitas, stabilit
 antartahun, dan sifat deteksi hotspot, dan seberapa stabil hasilnya antara data arsip saja
 (skenario A) dan arsip + NRT (skenario B)?
 
-Dashboard: [isi: tautan Tableau Public]
+Dashboard: (https://public.tableau.com:9443/views/Countofadm2_clusters_min23/KlasterisasiHotspotKebakaranIndonesiaperKabupatenKotaMODIS20022026?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## Sumber data dan cara mendapatkannya
 
@@ -24,11 +24,11 @@ Dashboard: [isi: tautan Tableau Public]
 | Hotspot MODIS C6.1 (near real time) | NASA FIRMS, https://firms.modaps.eosdis.nasa.gov/download/ | `fire_nrt_M-C61_820870.csv` |
 | Batas wilayah ADM2 Indonesia | geoBoundaries, https://www.geoboundaries.org | `indonesia_adm2.geojson` |
 
-Lisensi: [isi: lisensi data FIRMS dan lisensi berkas geoBoundaries dari halaman sumbernya].
 
 Cara mendapatkan (unduh manual, tanpa scraping dan tanpa API):
 1. Buka halaman FIRMS Download, pilih produk MODIS C6.1 untuk area Indonesia, unduh data
-   arsip dan NRT dalam format CSV. [isi: tanggal unduh dan rentang yang dipilih]
+   arsip dan NRT dalam format CSV.
+
 2. Unduh batas ADM2 Indonesia dari geoBoundaries dalam format GeoJSON.
 3. Simpan ketiga berkas di folder `data_raw/` dengan nama seperti pada tabel di atas.
 
@@ -38,12 +38,8 @@ Karakteristik dataset:
 - Gabungan: 1.646.575 baris. GeoJSON: 519 fitur poligon.
 
 ## Arsitektur pipeline
+<img width="2172" height="724" alt="Pipeline Analisis Hotspot Kebakaran" src="https://github.com/user-attachments/assets/294aa7c2-2323-40d6-957e-9f3f40c1a200" />
 
-```
-Unduh manual -> HDFS (batch, /proyek_akhir/raw) -> PySpark (gabung dan kualitas data)
--> GeoPandas (pemetaan titik ke ADM2) -> fitur wilayah -> K-Means (Spark MLlib),
-DBSCAN, Hybrid, Ensemble (scikit-learn) -> ekspor -> Tableau Public
-```
 
 ## Struktur folder
 
