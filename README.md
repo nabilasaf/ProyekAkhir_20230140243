@@ -38,7 +38,8 @@ Karakteristik dataset:
 - Gabungan: 1.646.575 baris. GeoJSON: 519 fitur poligon.
 
 ## Arsitektur pipeline
-<img width="2172" height="724" alt="Pipeline Analisis Hotspot Kebakaran" src="https://github.com/user-attachments/assets/294aa7c2-2323-40d6-957e-9f3f40c1a200" />
+<img width="2400" height="2062" alt="Pipeline_Proyek_Hotspot" src="https://github.com/user-attachments/assets/0f916446-f677-430c-8421-b6e47fb05e97" />
+
 
 
 ## Struktur folder
