@@ -1,0 +1,31 @@
+skenario,metode,k,varian,evaluasi_pada,n_klaster,n_wilayah_dievaluasi,noise_share,silhouette,davies_bouldin,silhouette_spark_k_selection
+A,K-Means,2.0,K-Means k=2,semua wilayah,2,461,0.0,0.281,1.355,0.4381
+A,K-Means,2.0,K-Means k=2,non-noise DBSCAN,2,382,0.0,0.3163,1.182,0.4381
+A,K-Means,4.0,K-Means k=4,semua wilayah,4,461,0.0,0.2462,1.2662,0.387
+A,K-Means,4.0,K-Means k=4,non-noise DBSCAN,4,382,0.0,0.262,1.177,0.387
+A,K-Means,6.0,K-Means k=6,semua wilayah,6,461,0.0,0.2374,1.1668,0.3699
+A,K-Means,6.0,K-Means k=6,non-noise DBSCAN,6,382,0.0,0.2448,1.1071,0.3699
+A,DBSCAN,,DBSCAN,non-noise DBSCAN,2,382,0.1714,0.3649,0.6706,
+A,Hybrid,,Hybrid,semua wilayah,4,461,0.0,0.1851,1.7019,
+A,Hybrid,,Hybrid,non-noise DBSCAN,2,382,0.0,0.3649,0.6706,
+A,Ensemble,2.0,Ensemble k=2,semua wilayah,2,461,0.0,0.3032,1.6008,
+A,Ensemble,2.0,Ensemble k=2,non-noise DBSCAN,2,382,0.0,0.3649,0.6706,
+A,Ensemble,4.0,Ensemble k=4,semua wilayah,4,461,0.0,0.184,1.8345,
+A,Ensemble,4.0,Ensemble k=4,non-noise DBSCAN,2,382,0.0,0.3649,0.6706,
+A,Ensemble,6.0,Ensemble k=6,semua wilayah,6,461,0.0,0.1609,1.7172,
+A,Ensemble,6.0,Ensemble k=6,non-noise DBSCAN,2,382,0.0,0.3649,0.6706,
+B,K-Means,2.0,K-Means k=2,semua wilayah,2,461,0.0,0.279,1.3611,0.4357
+B,K-Means,2.0,K-Means k=2,non-noise DBSCAN,2,379,0.0,0.3151,1.1973,0.4357
+B,K-Means,4.0,K-Means k=4,semua wilayah,4,461,0.0,0.2481,1.2852,0.3882
+B,K-Means,4.0,K-Means k=4,non-noise DBSCAN,4,379,0.0,0.262,1.1877,0.3882
+B,K-Means,6.0,K-Means k=6,semua wilayah,6,461,0.0,0.2297,1.2185,0.3692
+B,K-Means,6.0,K-Means k=6,non-noise DBSCAN,6,379,0.0,0.1964,1.1225,0.3692
+B,DBSCAN,,DBSCAN,non-noise DBSCAN,2,379,0.1779,0.1973,0.8393,
+B,Hybrid,,Hybrid,semua wilayah,4,461,0.0,0.114,1.4809,
+B,Hybrid,,Hybrid,non-noise DBSCAN,2,379,0.0,0.1973,0.8393,
+B,Ensemble,2.0,Ensemble k=2,semua wilayah,2,461,0.0,0.2672,1.8279,
+B,Ensemble,2.0,Ensemble k=2,non-noise DBSCAN,1,379,0.0,,,
+B,Ensemble,4.0,Ensemble k=4,semua wilayah,4,461,0.0,0.1461,1.932,
+B,Ensemble,4.0,Ensemble k=4,non-noise DBSCAN,2,379,0.0,0.1973,0.8393,
+B,Ensemble,6.0,Ensemble k=6,semua wilayah,6,461,0.0,0.1334,1.3166,
+B,Ensemble,6.0,Ensemble k=6,non-noise DBSCAN,2,379,0.0,0.1973,0.8393,
